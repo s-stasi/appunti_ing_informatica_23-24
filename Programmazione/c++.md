@@ -17,7 +17,7 @@ int main() {
 #include <iostream>
 ```
 
-**#include** è una direttiva per il preprocessore del compilatore che serve per includere file o librerie nel codice che si sta scrivendo. Includendo un file sarà possibile utilizzare tutte le classi, le funzioni, i namespace e le variabili presenti all'interno.
+**#include** è una direttiva per il preprocessore o precompilatore che serve per includere file o librerie nel codice che si sta scrivendo. Includendo un file sarà possibile utilizzare tutte le classi, le funzioni, i namespace e le variabili presenti all'interno.
 
 In questo caso si sta importando la libreria standard **iostream**, che serve per operazioni di input e output con la console.
 

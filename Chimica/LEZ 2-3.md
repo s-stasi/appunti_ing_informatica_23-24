@@ -98,7 +98,7 @@ Se ho 10g di metano quanta acqua produco?
 
 $$
 \begin{split}
-moli CH_4= \frac{10g}{16g} = 0,625moli 
+moli CH_4= \frac{10g}{16g} = 0,625moliCH_4
 \end{split}
 $$
 
@@ -106,4 +106,117 @@ $$
 
 Per determinare quanta acqua produciamo dobbiamo guardare i rapporti stechiometrici: se per ogni mole di $CH_4$ si fanno 2 moli di $H_2O$, $0.625 * 2 = 1,625moli$. Per trovare l'acqua si fa $1,250 * 18g = 22.5g$.
 
+# LEZ 3
 
+Per fare questo calcolo abbiamo assunto che avessimo tutto l'ossigeno che ci serve. Ma nella realtà non è così.
+
+Immaginiamo una reazione in cui abbiamo:
+
+$$
+Fe_{s} + S_{s} \to FeS_{s}\\
+1g + 1g
+$$
+
+Quanto prodotto si ottiene? dipende dalla quantità di elementi che ho. in questo caso il rapporto in cui si combinano è 1:1.
+
+Le masse di questi elementi sono diverse quindi la stessa massa equivale ad un numero diverso di atomi.
+
+$$
+moliFe = \frac{1g}{55.845\frac{g}{moli}} = 0,0179moliFe
+$$
+
+$$
+moliS = \frac{1g}{32,066\frac{g}{moli}} = 0.031moliS
+$$
+
+In questo caso per fare la reazione finiremo prima il ferro, che si chiama agente limitante.
+
+|          | Fe      | S       | FeS     |
+| -------- | ------- | ------- | ------- |
+| iniziale | 0.0179  | 0.031   | 0       |
+| $\Delta$ | -0.0179 | -0.0179 | +0.0179 |
+| finale   | 0       | 0.0131  | 0.0179  |
+
+Per trovare il peso finale si fa:
+
+$$
+(0.0179moli)*(55.845+32.068)\frac{g}{moli} = 1.58g
+$$
+
+E' un caso semplice perché il rapporto stechiometrico è 1:1.
+
+---
+
+$$
+Ag_{s} + S_{s} = AgS
+$$
+
+$$
+Ag_{s} + S_{s} = Ag_2S
+$$
+
+Utilizziamo il secondo esempio, ma prima va bilanciata
+
+$$
+2Ag_{s} + S_{s} = Ag_2S\\
+5g+1g
+$$
+
+1. $$
+   moliAg = \frac{5g}{107.87\frac{g}{mole}} = 0.046moliAg
+   $$
+
+2. $$
+   moliS = \frac{1g}{32.066\frac{g}{mole}} = 0.031moliS
+   $$
+
+3. Considerare i coefficienti stechiometrici:
+   
+   Se voglio usare tutto S quanto Ag mi serve? 0.062 moli di Ag. Visto che non le ho, l'agente limitante è Ag.
+   
+   Se voglio usare tutto Ag quanto S mi serve? 0.023 moli di S. Visto che ne ho di più, l'agente limitante è comunque Ag.
+
+4. |          | Ag     | S      | $Ag_2S$   |
+   | -------- | ------ | ------ | --------- |
+   | inizio   | 0.046  | 0.031  | 0         |
+   | $\Delta$ | -0.046 | -0.023 | +0.023    |
+   | fine     | 0      | 0.008  | 0.023moli |
+   |          | 0g     | 0.31g  | 5.69g     |
+
+# Termodinamica
+
+L'energia è la capacità di svolgere un lavoro, ad esempio spostare un oggetto. Il primo principio della termodinamica dice che l'energia totale è sempre la stessa, si può solo trasformare. Quando studiamo le variazioni di energia in un sistema bisogna definire i confini di studio. Se immaginiamo di delimitare l'universo in una scatola, possiamo delimitare ciò che succede nella scatola.
+
+![](/Users/xtc/Desktop/appunti/uni/Chimica/tipi%20di%20sistemi.jpg)
+
+3 casi:
+
+- Sistema aperto: scambio massa ed energia
+
+- Sistema chiuso: scambio solo energia
+
+- Sistema isolato: non scambio niente
+
+Se il sistema da calore o lavoro all'ambiente viene considerato di segno -
+
+Se l'ambiente da calore o lavoro al sistema viene considerato di segno +
+
+### Parametri del sistema
+
+- Temperatura
+
+- Pressione
+
+- Composizione: cosa c'è dentro. Per i sistemi chimici che vedremo noi verrà definito sotto forma di concentrazione. In particolare studieremo soprattutto le soluzioni acquose. moli/litro = molarità
+
+Le variabili sono di due tipi:
+
+- Estensive: quantità di campione
+
+- Intensive: temperatura e pressione
+
+## Calorimetria
+
+## Termochimica
+
+Si tratta degli scambi di calore durante le reazioni chimiche.
