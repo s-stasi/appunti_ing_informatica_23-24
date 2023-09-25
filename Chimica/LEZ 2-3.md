@@ -217,6 +217,76 @@ Le variabili sono di due tipi:
 
 ## Calorimetria
 
+Relazione tra scambi di calore di un sistema e i cambiamenti di temperatura. la **temperatura** è la misura dell'agitazione delle molecole: più un corpo è caldo più le molecole sono agitate. La quantità di calore non è proporzionale alla temperatura. La **temperatura** si misura in **kelvin** (scala assoluta di temperatura). La quantità di energia termica (**q**) è legata alla temperatura da vari parametri:
+
+- **Massa**
+
+- **Calore specifico** (**C**): non tutte le molecole rispondono allo stesso modo quando gli viene dato calore.
+  
+  $$
+  q=m*c*\Delta T\\
+J=g*\frac{J}{g*K}*K
+  $$
+
+Si misura in **Joule** (**J**), che é una misura molto piccola. quantità di calore che server per aumentare il calore di un corpo. Inizialmente viene introdotta come caloria: energia che serve per aumentare di 1*K la temperatura di un 1° di $H_2O$ (14,5$\to$15,5)
+
+$$
+1caloria = 4.184\frac{J}{g*K}(\text{calore specifico acqua})
+$$
+
+$$
+\frac{J}{g*K} = \text{capacità termica}
+$$
+
+**Capacità termica**: capacità di un corpo di assorbire calore.
+
+
+
+Applicazione:
+
+
+
+1. $$
+   2000J = 10g * 4.184*\Delta T \to \Delta T = 47.8°C
+   $$
+
+2. $$
+   2000J = 10g * 0.129*\Delta T \to \Delta T = 1550°C
+   $$
+
+
+
+Questo tipo di misura è utilizzata molto perché misurare la temperatura è facile, mentre misurare l'energia è difficile. Per farlo si usa un calorimetro.
+
+![](/Users/xtc/Desktop/appunti/uni/Chimica/calorimetro.jpg)
+
+Il calore si trasferisce sempre dal corpo caldo a quello freddo. L'energia di un composto sta nei legami chimici.
+
+
+
+![](/Users/xtc/Desktop/appunti/uni/Chimica/energia%20interna.jpg)
+
+L'**energia interna $\Delta E$** di un sistema si conserva 
+
+$$
+\Delta E = q + w\\
+w = - P * \Delta V
+$$
+
+La variazione di energia interna al sistema si può scrivere come:
+
+$$
+\Delta E = q - p\Delta V
+$$
+
+
+
+L'**entalpia** è la variazione di energia interna misurata in un contenitore di volume costante.
+
+$\Delta E$, $\Delta H$ sono funzioni di stato, che non dipendono dal modo in cui avviene la variazione, importa solo lo stato iniziale e lo stato finale.
+
+
+
 ## Termochimica
 
 Si tratta degli scambi di calore durante le reazioni chimiche.
