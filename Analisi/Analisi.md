@@ -37,3 +37,7 @@ esercitazioni di analisi matematica 1 bramanti
 1) inizio novembre per prima metà del programma
 
 2) 22 gennaio per seconda parte del programma
+
+## Prova in itinere
+
+Venerdì 3 Novembre mattina (non obbligatoria, compitino) **9 cfu: 1cfu=25h di lavoro**

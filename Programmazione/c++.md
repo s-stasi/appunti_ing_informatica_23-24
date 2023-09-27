@@ -167,6 +167,151 @@ int main(){
 } 
 ```
 
+## Variabili
+
+Le variabili si creano mettendo il tipo di dato, il nome della funzione, =, il valore e ;:
+
+```cpp
+int nome = 5;
+```
+
+Se ad una variabile non viene assegnato nessun valore essa avrà il valore che è scritto nello spazio della RAM dove è fisicamente allocata la variabile.
+
+## Operatori
+
+- \*: moltiplicazione
+
+- /: divisioni
+
+- +: somma
+
+- \-: sottrazione
+
+- %: modulo o resto della divisione tra interi
+
+- += valore: incrementa la variabile del valore specificato
+  
+  ```cpp
+  variabile += 5;
+  variabile = variabile + 5;
+  ```
+
+- -= valore: sottrae alla variabile il valore specificato
+  
+  ```cpp
+  variabile -= 5;
+  variabile = variabile - 5;
+  ```
+
+Questi ultimi due operatori non aumentano la capacità espressiva del linguaggio e valgono ugualmente per la divisione e per la moltiplicazione.
+
+- ++: incrementa di 1 il valore della variabile. Ci sono due modi per utilizzare questa operazione: se viene scritto variabile++, la variabile viene prima utilizzata nell'espressione e poi incrementata. Se si usa ++variabile è il contrario
+
+- --: stessa cosa di ++ ma decrementa di 1;
+
+- **bool**: può assumere solo due valori, vero o falso.
+
+## Tipi di dato
+
+- **int**: numero intero con segno 32bit (-2.147.483.648, +2.147.483.647). il primo bit è il bit di segno
+
+- **unsigned int**: numero intero senza segno 32bit (0, +4.294.967.295). il primo bit è il bit di segno
+
+- **short int**: numero intero con segno 16bit (-32.768, +32.767). il primo bit è il bit di segno
+
+- **short unsigned int**: numero intero senza segno 16 bit
+
+- **float**: numeri in virgola mobile 32 bit
+
+- **double**: numeri in virgola mobile 64 bit. Hanno più precisioni con numeri molto piccoli o molto grandi
+
+- **char**: carattere singolo 8 bit in codice ASCII (ogni codice associato ad un simbolo) (-128, +127)
+
+- **unsigned char**: char senza segno 8 bit (0, +255) nel codice le stringhe si indicano con le virgolette
+
+```cpp
+char carattere = 'A';
+```
+
+I valori costanti si indicano con 
+
+```cpp
+const int variabile = 5;
+```
+
+Se un float viene moltiplicato con un int il risultato sarà un float, quindi il tipo più capiente. E' comunque preferibile fare operazioni con variabili dello stesso tipo per evitare conflitti ed errori.
+
+Non posso assegnare un valore ad una variabile di un tipo diverso a parte per gli int: gli int sono contenuti nei float quindi posso assegnare un int ad un float, ma non un float ad un int.
+
+Posso convertire un tipo ad un altro utilizzando l'operatore di **casting**, anche se a volte perdiamo alcune informazioni. Se questo operatore viene utilizzato durante una espressione viene cambiato solo momentaneamente il tipo alla variabile, non si modifica il valore o la variabile stessa. L'operatore di casting ha la precedenza sulle operazioni matematiche.
+
+```cpp
+float a = 5.456;
+int b = (int)a; // b = 5
+```
+
+La divisione tra numeri int risulterà un int, anche se ha il resto: 5/4 = 1. Tutte le altre risultano float.
+
+## Istruzioni di controllo
+
+Servono per adattare il comportamento del programma a diverse situazioni. La prima è if.
+
+```cpp
+if(condizione) {
+    // operazioni in caso la condizione sia vera
+} else {
+    // operazioni in caso la condizione sia falsa
+}
+```
+
+Se bisogna eseguire una sola operazione si possono omettere le parentesi graffe.
+
+```cpp
+float a = 0;
+float b = 1.345;
+int c;
+
+if(a != 0) 
+    c = b / a;
+else 
+    c = a + b;
+```
+
+Ci sono diversi operatori per le condizioni:
+
+- **==**: uguale
+
+- **!=**: diverso
+  
+  | C   | !(C) |
+  | --- | ---- |
+  | V   | F    |
+  | F   | V    |
+
+- **>  <  >=  <=**: maggiore, minore, maggiore o uguale, minore o uguale
+
+- **||**: and
+  
+  | C1  | C2  | |\| |
+  | --- | --- | --- |
+  | F   | F   | F   |
+  | F   | V   | V   |
+  | V   | F   | V   |
+  | V   | V   | V   |
+
+- **&&**: or
+  
+  | C1  | C2  | &&  |
+  | --- | --- | --- |
+  | F   | F   | F   |
+  | F   | V   | F   |
+  | V   | F   | F   |
+  | V   | V   | V   |
+
+Se un valore è 0 viene considerato falso, in qualsiasi altro caso viene considerato true.
+
+**Non si fanno confronti alla cazzo: solo due valori alla volta stronzo!!!!!!!!!!!**
+
 ## Libreria standard
 
 ```cpp

@@ -240,11 +240,7 @@ $$
 
 **Capacità termica**: capacità di un corpo di assorbire calore.
 
-
-
 Applicazione:
-
-
 
 1. $$
    2000J = 10g * 4.184*\Delta T \to \Delta T = 47.8°C
@@ -254,15 +250,11 @@ Applicazione:
    2000J = 10g * 0.129*\Delta T \to \Delta T = 1550°C
    $$
 
-
-
 Questo tipo di misura è utilizzata molto perché misurare la temperatura è facile, mentre misurare l'energia è difficile. Per farlo si usa un calorimetro.
 
 ![](/Users/xtc/Desktop/appunti/uni/Chimica/calorimetro.jpg)
 
 Il calore si trasferisce sempre dal corpo caldo a quello freddo. L'energia di un composto sta nei legami chimici.
-
-
 
 ![](/Users/xtc/Desktop/appunti/uni/Chimica/energia%20interna.jpg)
 
@@ -279,13 +271,13 @@ $$
 \Delta E = q - p\Delta V
 $$
 
-
-
 L'**entalpia** è la variazione di energia interna misurata in un contenitore di volume costante.
 
 $\Delta E$, $\Delta H$ sono funzioni di stato, che non dipendono dal modo in cui avviene la variazione, importa solo lo stato iniziale e lo stato finale.
 
+Servono per definire una reazione **esotermica** (libera calore $\Delta H < 0$) ed **endotermica** ($\Delta H > 0$).
 
+la rottura di un legame chimico è un processo che ha $\Delta H > 0$, mentre la formazione ha un $\Delta H < 0$
 
 ## Termochimica
 
