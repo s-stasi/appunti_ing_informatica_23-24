@@ -99,3 +99,5 @@ Esercizio 11 $f(x) = x^2$:
 4. $f(\R) = (0,+\infin)$
 
 
+
+

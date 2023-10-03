@@ -196,7 +196,7 @@ V_m = \frac{\Delta x}{\Delta y}
 $$
 
 $$
-\Delta x = v_m \Delta t = \int_{t_0}^{t^1}v(t)dt
+\Delta x = v_m \Delta t = \frac{1}{t_1-t_0}\int_{t_0}^{t^1}v(t)dt
 $$
 
 Se $t_1$ è generico e diventa $t$:
@@ -222,4 +222,18 @@ x(t) &= x(t_0) + a\int_{t_0}^tt'^2dt'\\
 x(t) &= x(t_0) + a\left[\frac{t'^3}{3} \right]^t_{t_0}\\
 x(t) &= x(t_0) + a\left(\frac{t^3}{3} - \frac{t_0^3}{3} \right)^t_{t_0}\\
 \end{split}
+$$
+
+Ricavare la velocità nota l'accelerazione media
+
+$$
+a_m = \frac{\Delta v}{\Delta t} \to a_i = \frac{dv}{dt}
+$$
+
+$$
+\Delta V = \int_{V_0}^{V^1}(t')dt'
+$$
+
+$$
+a=g-bv \to \frac{dv}{dt} = g-bv = g(\frac{g}{b} - v)
 $$
