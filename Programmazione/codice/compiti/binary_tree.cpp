@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 struct Node {
   int data;
   Node *left, *right;
@@ -7,6 +9,9 @@ struct Node {
 
 int main(int argc, const char **argv)
 {
+  Node* tree;
+
+  printLeafs(tree);
   
   return 0;
 }
@@ -17,4 +22,18 @@ Node* newNode (int data) {
   temp->left = nullptr;
   temp->right = nullptr;
   return temp;
+}
+
+void printLeafs(Node* node) {
+  if(node == nullptr) return;
+
+  if(node->left == nullptr && node->right == nullptr) {
+    cout << "Found leaf with value " << node->data << endl;
+    return;
+  }
+
+  if(node->left != nullptr) printLeafs(node->left);
+  if(node->right != nullptr) printLeafs(node->right);
+
+  return;
 }
