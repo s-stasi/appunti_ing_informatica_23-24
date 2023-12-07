@@ -63,3 +63,63 @@ $$
 $$
 
 se per ogni numero reale $M>0$ esiste un intero $n_0$ tale che se $n\ge n_0$ allora $a_n < -M$
+
+## 
+
+$$
+\lim_{x\to c}(f(x)\pm g(x) = l \pm m\\
+
+\lim_{x\to c}(f(x)\ g(x) = l m\\
+
+\lim_{x\to c}(\frac{f(x)}{g(x)} = \frac{l}{m} \to g(x) = 0
+$$
+
+**Tutto questo se i limiti esistono finiti o infiniti**
+
+$$
+\begin{split}
+\lim_{x\to 0}\frac{x^2 - x + 5 + \sin{x}}{s+x\cos{x}} &= \frac{\lim_{x\to 0}x^2-x+5+\sin x}{\lim_{x\to 0}3+x\cos x}\\
+&=\text{limite di ogni cosa}\\
+&=\frac{0-0+5+0}{3+0*1}\\
+&=\frac{5}{3}
+\end{split}
+$$
+
+$$
+\lim_{x\to \frac{\pi}{2}} \tan(x) = \lim_{x\to \frac{\pi}{2}} \frac{\sin(x)}{\cos(x)}=\frac{1}{0}=\infin
+$$
+
+$$
+\lim_{x\to \frac{\pi}{2}^+} \tan(x) = \lim_{x\to \frac{\pi}{2}} \frac{\sin(x)}{\cos(x)}=\frac{1}{0^-}=-\infin
+$$
+
+$$
+\lim_{x\to \frac{\pi}{2}^-} \tan(x) = \lim_{x\to \frac{\pi}{2}} \frac{\sin(x)}{\cos(x)}=\frac{1}{0^+}=+\infin
+$$
+
+Supponiamo che f ammetta un limite l finito o infinito per x tendente a c. Allora f non ha altri limiti per x tendente a c.
+
+*dimostrazione* Supponiamo, per assurdo, che esistano due limiti l1 ed l2 con l1 diverso da l2. quindi che valgano 
+
+$$
+\lim_{x\to x_0} f(x) = l1\\
+\lim_{x\to x_0} f(x) = l2
+$$
+
+Sia $\epsilon > 0$, allora dovendo valere (1) esisterà $\delta_1$ tale che se $0<|x,x_o|<\delta_1$ allora 
+
+$$
+|f(x)-l_1|<\epsilon
+$$
+
+Dovendo valere anche (2) esisterà $\delta_2$ tale che se $0<|x-x_0|<\delta_2$ allora 
+
+$$
+|f(x)-l_2|<\epsilon
+$$
+
+Prendiamo un valore $x$ che si trova in tutti e due gli intervalli
+
+Allora valgono $|f(x) - l_1|<\epsilon$ e $|f(x) - l_2|<\epsilon$
+
+$0<|l_1-l_2| = |l_1 - f(x) +l_2 -f(x)|\le| f(x) - l_1 +f(x) l_2|<\epsilon + \epsilon =2\epsilon$

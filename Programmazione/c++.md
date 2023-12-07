@@ -292,12 +292,12 @@ Ci sono diversi operatori per le condizioni:
 
 - **||**: and
   
-  | C1  | C2  | |\| |
-  | --- | --- | --- |
-  | F   | F   | F   |
-  | F   | V   | V   |
-  | V   | F   | V   |
-  | V   | V   | V   |
+  | C1  | C2  | \|\| |
+  | --- | --- | ---- |
+  | F   | F   | F    |
+  | F   | V   | V    |
+  | V   | F   | V    |
+  | V   | V   | V    |
 
 - **&&**: or
   
@@ -319,3 +319,108 @@ cout << risultato;
 ```
 
 Cout è una proprietà della libreria standard che permette di stampare sulla console quello che vogliamo. Le due parentesi angolari sono un operatore <<.
+
+## Cicli
+
+Un ciclo è un blocco di istruzioni che deve essere ripetuto più volte. Ci sono diversi tipi di cicli:
+
+- **while**
+  
+  Esegue le azioni da svolgere a ripetizione fino a che la condizione è vera
+  
+  ```cpp
+  while (condizione) {
+      // azioni da svolgere
+  }
+  ```
+
+- **for**
+  
+  Esegue le azioni da svolgere fino a che la condizione è vera. Offre un maggior controllo sulle iterazioni.
+  
+  ```cpp
+  for (int i = 0; i < 10; i++) {
+      // azioni da svolgere
+      // in questo caso vengono ripetute 10 volte
+  }
+  ```
+
+- **do while**
+  
+  A differenza degli altri due cicli, il **do while** esegue almeno una volta le istruzioni presenti nel **do**.
+  
+  ```cpp
+  do {
+      // azioni da svolgere
+  } while (condizione)
+  ```
+
+```cpp
+int main()
+{
+    int v;
+
+    while (1)
+    {
+        cout << "inserisci un valore: ";
+        cin >> v;
+        v % 3 ? break : continue;
+    }
+
+    cout << "OK" << endl;
+    return 0;
+}
+```
+
+```cpp
+for (int i = 1; i <= n; i++) somma += n;
+```
+
+Ci sono due istruzioni che servono per **controllare** o **alterare** il ciclo:
+
+- **break**: quando viene eseguita si esce immediatamente dal ciclo senza eseguire altri passaggi
+
+- **continue**: passa direttamente alla prossima iterazione senza finire di eseguire le istruzioni rimanenti per concludere il ciclo
+
+Gli **switch** servono per evitare scrivere lunghe serie di if...else: 
+
+```cpp
+// con if
+int i = 0;
+cin >> i;
+
+if(i == 1) {
+    // codice
+}
+if(i == 2) {
+    // codice
+}
+if(i == 3) {
+    // codice
+}
+switch(i)
+```
+
+```cpp
+// con switch
+int i = 0;
+cin >> i;
+
+switch(i) 
+{
+    case 1:
+        // istruzioni
+        break;
+    case 2:
+        // istruzioni
+        break;
+    case 3:
+        // istruzioni
+        break;
+    default:
+        // istruzioni
+        break;
+}
+```
+
+Il default serve per gestire tutti i valori che non vogliamo considerare o che sono inaspettati.

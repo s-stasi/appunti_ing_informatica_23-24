@@ -237,3 +237,20 @@ $$
 $$
 a=g-bv \to \frac{dv}{dt} = g-bv = g(\frac{g}{b} - v)
 $$
+
+## Moto di un cazzo di proiettile
+
+$$
+\begin{cases}
+V_x(t)=V_0 \cos\theta\\
+V_y(t)=V_0 \sin\theta - gt
+\end{cases}
+$$
+
+$$
+\vec{v}(t) = \vec{v}_0-gt\vec{j}
+$$
+
+# Madagascar
+
+# I pinguini di madagascar

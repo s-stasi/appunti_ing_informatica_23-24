@@ -97,7 +97,3 @@ Esercizio 11 $f(x) = x^2$:
    $x^2>1 \to (-\infin,-1)\bigcup(1,+\infin)$
 
 4. $f(\R) = (0,+\infin)$
-
-
-
-
