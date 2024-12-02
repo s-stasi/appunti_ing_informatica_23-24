@@ -1,0 +1,12 @@
+---
+title: "ForestFires"
+output: pdf_document
+date: "2024-12-02"
+author: "Morgera Claudio, Pavan Alessia, Porco Sara, Stasi Samuele" 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Forest Fires

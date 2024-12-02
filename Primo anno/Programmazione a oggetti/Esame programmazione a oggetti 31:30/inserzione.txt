@@ -1,0 +1,3 @@
+234234,casa,via dei froci,null,bob,true
+745725624,secondo,via cazzo,2030/12/12,jonny,true
+000000,terzo,via dei finocchi,2023/07/24,tuamadre,false

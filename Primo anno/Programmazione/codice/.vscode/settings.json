@@ -1,0 +1,18 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "__tuple": "cpp",
+    "array": "cpp",
+    "iostream": "cpp",
+    "iosfwd": "cpp",
+    "ostream": "cpp",
+    "__config": "cpp",
+    "__bit_reference": "cpp",
+    "__string": "cpp",
+    "algorithm": "cpp",
+    "bitset": "cpp",
+    "deque": "cpp",
+    "functional": "cpp",
+    "vector": "cpp"
+  }
+}

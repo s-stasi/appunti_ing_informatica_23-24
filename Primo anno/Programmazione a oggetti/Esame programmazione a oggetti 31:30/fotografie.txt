@@ -1,0 +1,8 @@
+desktop/foto1.svg,1024,234234
+desktop/foto2.svg,1024,234234
+desktop/foto3.svg,1024,745725624
+desktop/foto4.svg,1024,745725624
+desktop/foto5.svg,1024,000000
+desktop/foto6.svg,1024,000000
+desktop/foto7.svg,1024,000000
+desktop/foto8.svg,1024,000000

@@ -1,3 +1,1 @@
-# Appunti ingegneria informatica 23/24 1° anno
-
-# 
+# Appunti ingegneria informatica 1°/2° anno

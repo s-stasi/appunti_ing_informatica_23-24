@@ -1,0 +1,4 @@
+bob,gold
+jonny,gold
+sara,premium
+tuamadre,standard
