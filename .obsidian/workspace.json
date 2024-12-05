@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "422bc2c357a8b3d6",
+        "id": "6a6104713cac802c",
         "type": "tabs",
         "children": [
           {
-            "id": "6db35e2188557a3b",
+            "id": "043db41267a1177f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Primo anno/Fisica/Fisica.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Fisica"
             }
           }
         ]
@@ -132,9 +136,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Primo anno/Fisica/Fisica.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Fisica"
             }
           },
           {
@@ -146,9 +152,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "02573228b7b25590",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -162,17 +178,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "6db35e2188557a3b",
+  "active": "043db41267a1177f",
   "lastOpenFiles": [
+    "Primo anno/Fisica/Fisica_images/1.png",
+    "Primo anno/Fisica/Fisica.md",
+    "Primo anno/Fisica/Cinematica.pdf",
+    "Primo anno/Fisica/Fisica_images",
+    "Primo anno/Fisica/Esercitazione 1.pdf",
+    "Primo anno/Fisica/Cinematica.md",
+    "Primo anno/Fisica/Fisica 2.md",
+    "Fisica.pdf",
     "2024-12-05.md",
     "Untitled.canvas",
-    "Primo anno/Fisica/Fisica.md",
-    "Fisica.pdf",
     "Primo anno/Fisica/appunti gaia/WhatsApp Image 2024-11-11 at 20.31.56.jpeg",
-    "Primo anno/Fisica/30.png",
+    "Primo anno/Fisica/Fisica_images/30.png",
     "Primo anno/Fisica/Schermata 2024-12-05 alle 12.47.00.png",
     "Primo anno/Fisica/Fisica1.md",
     "Secondo Anno/Statistica/Codice/Prova.md",
