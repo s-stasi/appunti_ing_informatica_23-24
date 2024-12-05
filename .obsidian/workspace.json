@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "176da858c3454a11",
+    "type": "split",
+    "children": [
+      {
+        "id": "422bc2c357a8b3d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6db35e2188557a3b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ebc1e1b29c32b5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1da744f40b764679",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68bfe71b5ed771a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "06bed4276bf3a8f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d2940490734b5199",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b0ecdd777bf8ace3",
+    "type": "split",
+    "children": [
+      {
+        "id": "47b2f939df662fb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52a8327602b19601",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8e1d126b0a65394f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ae783b07c05ce32c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "459606df775bcc96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "79123552eb804897",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "6db35e2188557a3b",
+  "lastOpenFiles": [
+    "2024-12-05.md",
+    "Untitled.canvas",
+    "Primo anno/Fisica/Fisica.md",
+    "Fisica.pdf",
+    "Primo anno/Fisica/appunti gaia/WhatsApp Image 2024-11-11 at 20.31.56.jpeg",
+    "Primo anno/Fisica/30.png",
+    "Primo anno/Fisica/Schermata 2024-12-05 alle 12.47.00.png",
+    "Primo anno/Fisica/Fisica1.md",
+    "Secondo Anno/Statistica/Codice/Prova.md",
+    "Secondo Anno/Fondamenti di automatica/Fondamenti di automatica.md",
+    "Secondo Anno/Fondamenti di automatica/Esercitazione1.md",
+    "Secondo Anno/Fondamenti di automatica/5.png"
+  ]
+}

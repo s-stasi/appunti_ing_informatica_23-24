@@ -1,12 +1,105 @@
 ---
 title: "ForestFires"
-output: pdf_document
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    keep_tex: true
 date: "2024-12-02"
 author: "Morgera Claudio, Pavan Alessia, Porco Sara, Stasi Samuele" 
+header-includes:
+  - \usepackage{wrapfig}
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=F, echo=F, message=F}
 knitr::opts_chunk$set(echo = TRUE)
+
+# inclusione del dataset
+dataset <- read.csv("./forestfires.csv")
+colnames(dataset)
+summary(dataset)
+
+# Conta le combinazioni uniche di coordinate (X, Y), che sono le stazioni di monitoraggio, per poi plottarle sulla mappa di quell'inutile paese che è la Spagna (e per fortuna che non ci hanno dato la Francia oserei dire)
+unique_stations <- nrow(unique(dataset[, c("X", "Y")]))
+
+# Conta i mesi
+num_unique_months <- length(unique(dataset$month))
+time_period <- if (num_unique_months < 12) {
+  paste(num_unique_months, "mesi")
+} else {
+  "un anno"
+}
+
+######## Per la mappa ########
+# install.packages("ggplot2")
+# install.packages("png")
+# install.packages("jpeg")
+library(ggplot2)
+library(png)
+
+# Carica l'immagine della mappa
+map_image <- readPNG("montesigno.png")
 ```
 
 # Forest Fires
+
+L'obiettivo di questo report è stimare l'area bruciata dagli incendi boschivi nel parco di montesigno in funzione delle condizioni ambientali. I dati presenti nel dataset sono stati raccolti da `r unique_stations` stazioni meteorologiche nell'arco di `r time_period`. \newline
+
+```{r mappa, echo=FALSE, fig.height=2.5, fig.width=5, fig.align='center'}
+# Disegna i punti sopra la mappa
+ggplot(dataset, aes(x = X, y = Y)) +
+  annotation_raster(map_image, xmin = 0, xmax = 10, ymin = 0, ymax = -10) +
+  geom_point(color = "red", size = 1) +
+  scale_y_reverse(limits = c(9.6, 0.4)) +
+  scale_x_continuous(limits = c(0.5, 9.5)) +
+  coord_fixed(ratio = 1/1.5) +
+  labs(title = "Mappa stazioni di monitoraggio",
+       x = "Coordinata X",
+       y = "Coordinata Y") +
+  theme(axis.title.x = element_text(size = 9),
+        axis.title.y = element_text(size = 9),
+        axis.text.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks=element_blank(),
+        title = element_text(size = 10))
+```
+
+Il dataset in esame contiene le seguenti variabili:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+### Sezione per spiegare le variabili del dataset
+# install.packages("knitr")
+# install.packages("kableExtra")
+library(knitr)
+library(kableExtra)
+
+data <- data.frame(
+  `Variabile` = c("X", "Y", "month", "day", "FFMC", "DMC", "DC", "ISI", "temp", "RH", "wind", "rain", "area"),
+  `Descrizione` = c(
+    "Coordinata X della stazione",
+    "Coordinata Y della stazione",
+    "Mese della rilevazione",
+    "Giorno della settimana della rilevazione",
+    "Codice FFMC (indica la secchezza del combustibile sottile)",
+    "Codice DMC (indica la secchezza del sottobosco)",
+    "Codice DC (indica la secchezza degli strati organici profondi)",
+    "Indice di velocità iniziale",
+    "Temperatura (in °C)",
+    "Umidità relativa (in %)",
+    "Velocità del vento (in km/h)",
+    "Pioggia (in mm/m²)",
+    "Area totale bruciata (in ha)"
+  )
+)
+
+data %>%
+  kbl(caption = "Tabella variabili") %>%
+  kable_styling(full_width = FALSE, latex_options = "HOLD_position")
+```
+
+```{r echo=FALSE, fig.align='center', fig.height=4, fig.width=4}
+# https://cwfis.cfs.nrcan.gc.ca/background/summary/fwi
+library(png)
+library(grid)
+img <- readPNG("./fwi_structure.png")
+grid.raster(img)
+```

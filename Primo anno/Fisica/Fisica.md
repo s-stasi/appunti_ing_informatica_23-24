@@ -2125,3 +2125,153 @@ La soluzione è
 $$
 V'_{1,fn}=-V'_{1,in} \qquad \qquad V'_{2,fn}=-V'_{2,in}
 $$
+
+Nel sistema del centro di massa, la velocità e la quantità di moto restano uguali in modulo ma invertono il verso. In un sistema inerziale:
+
+$$
+\begin{aligned}
+&V_{1,in}=V_{1,in}'+V_{CM} &V_{2,in}=V_{2,in}'+V_{CM} \\
+&V_{1,fn}=V_{1,fn}'+V_{CM} &V_{2,fn}=V_{2,fn}'+V_{CM} \\
+\end{aligned}
+$$
+
+$$
+V_{CM}=\frac{m_1V_{1,in}+m_2V_{2,in}}{m_1+m_2} \text{ da questo si ottiene che:} \\
+V_{1,fn}=\frac{(m_1-m_2)V_{1,in}+2m_2V_{2,in}}{m_1+m_2} \\
+V_{2,fn}=\frac{2m_1V_{1,in}+(m_1-m_2)V_{2,in}}{m_1+m_2}
+$$
+
+### 5.13 Urto anelastico
+
+In questo tipo di moto, successivamente all'urto i due punti si separano, si conserva la quantità di moto se non ci sono forze esterne di tipo impulsivo e l'energia cinetica varia. Una frazione dell'energia cinetica viene dissipata. La forza di interazione di una particella con l'altra è maggiore rispetto a quella di ritorno nella configurazione iniziale. Se un urto è elastico abbiamo degli impulsi uguali e simmetrici. Il punto 1 riduce la quantità di moto fino ad arrestarsi e la riacquista in verso opposto ma minore in modulo.
+
+Il coefficiente di restituzione è indicato con $e$ e vale:
+
+$$
+e=-\frac{P_{1,fn}'}{P_{1,in}'}=-\frac{V_{1,fn}'}{V_{1,in}'}=
+-\frac{P_{2,fn}'}{P_{2,in}'}=-\frac{V_{2,fn}'}{V_{2,in}'}
+$$
+
+$P'=0$, quindi le $P$ iniziali e finali dei due punti sono uguali, per questo abbiamo che il coefficiente di riduzione è uguale per le due particelle. L'energia cinetica dopo l'urto vale
+
+$$
+\begin{aligned}
+E_{K,fn}'&=\frac{1}2m_1V_{1,fn}'^2+\frac{1}2m_2V_{2,fn}'^2 \\
+&=e^2(\frac{1}2m_1V_{1,in}'^2+\frac{1}2m_2V_{2,in}'^2)
+\end{aligned} \\
+\Downarrow \\
+E_{K,fn}'=e^2E_{K,in}'
+$$
+
+Dove la variazione di energia cinetica nell'urto vale
+
+$$
+\delta=\frac{E_{K,fn}'-E_{K,in}'}{E_{K,in}}=e^2-1
+$$
+
+- Se $e=1,\delta=0$ l'energia cinetica si conserva e abbiamo un urto elastico
+
+- Se $e=0,\delta=-1$ l'energia cinetica relativa del moto rispetto al centro di massa è dissipata e trasformata, abbiamo un urto anelastico
+
+La relazione di velocità in un sistema inerziale vale:
+
+$$
+V_{1,fn}'=V_{1,fn}-V_{CM}=-eV{1,in}'=-e(V_{1,in}-V_{CM}) \\
+V_{2,fn}'=V_{2,fn}-V_{CM}=-eV{2,in}'=-e(V_{2,in}-V_{CM}) \\
+\Downarrow \\
+V_{1,fn}'=V_{CM}(1+e)-eV_{1,in} \\
+V_{2,fn}'=V_{CM}(2+e)-eV_{2,in}
+$$
+
+$$
+\text{Essendo } V_{CM}=\frac{m_1V_{1,in}+m_2V_{2,in}}{m_1+m_2} \text{ si ottiene} \\
+V_{1,fn}=\frac{(m_1-em_2)V_{1,in}+m_2(1+e)v_{2_in}}{m_1+m_2} \\
+V_{1,fn}=\frac{m_1(1+e)v_{1_in}+(m_2-em_1)V_{2,in}}{m_1+m_2}
+$$
+
+Se $e=1$ si torna ad un urto elastico, altrimenti è anelastico.
+
+## CAP. 6) Energia potenziale gravitazionale
+
+### 6.4 Energia potenziale gravitazionale
+
+La forza gravitazionale è conservativa, viene applicata al centro dei corpi e dipende dalla distanza tra di loro. La traiettoria di $m_2$ nel campo di $m_1$ viene calcolata in step infinitesimi $dS$
+
+$$
+dW=FdS=-\gamma\frac{m_1m_2}{r^2}u1\cdot dS
+$$
+
+$$
+\begin{aligned}
+\text{QUINDI }W&=\int_A^BdW \\
+&=\int_{rA}^{rB}-\gamma\frac{m_1m_2}{r^2}u1\cdot dr \\
+&=-\gamma m_1m_2\left(-\frac{1}{rB} +\frac{1}{rA}\right) \\
+&=-\gamma\frac{m_1m_2}{rA}-\left(-\gamma\frac{m_1m_2}{rB}\right) \\
+&=E_{P,A}-E_{P,B}
+\end{aligned}
+$$
+
+Il lavoro non dipende dalla traiettoria ma dalle posizioni iniziali e finali.
+
+$$
+E_P=-\gamma\frac{m_1m_2}{r}+const=-\gamma\frac{m_1m_2}{r}
+$$
+
+è negativa perché la forza gravitazionale è attrattiva. Se le masse sono molto lontane o tendenti all'infinito l'energia potenziale è nulla, mentre se si stanno avvicinando diminuisce in favore dell'energia cinetica.
+
+$$
+E_P=m_2V_1 \qquad \qquad V_1=\frac{E_P}{m_2}=-\gamma\frac{m_1}{r}
+$$
+
+la grandezza fisica $V_1(r)$ è detta potenziale gravitazionale del campo prodotto da $m_1$, mentre quello di $m_2$ vale
+
+$$
+E_P=m_1V_2 \qquad \qquad V_1=-\gamma\frac{m_2}{r}
+$$
+
+Il lavoro per lo spostamento della seconda massa da un posto all'altro nel campo della prima è dato da
+
+$$
+W=-\Delta E_P=-m_2\Delta V_1=-m_2(V_{1,B}-V_{1,A})
+$$
+
+tra campo e potenziale
+
+$$
+G=-gradV-\Delta V
+$$
+
+Il potenziale è la somma di diverse grandezze scalari. L'energia meccanica di un sistema a due masse vale:
+
+$$
+E_m=E_K+E_P=E_K-|E_P| \\
+E_K>|E_P| \qquad E_K=|E_P| \qquad E_K<|E_P|
+$$
+
+con questo si dimostra la dipendenza dell'energia dalla distanza dei due corpi. La curva continua mostra che l'energia potenziale è uguale in tutti e tre i casi. Nel terzo caso $r$ è limitato ad essere maggiore di $r_0$ per $E_P>E$
+
+- $E>0$ orbita iperbolica
+- $E=0$ orbita parabolica
+- $E<0$ orbita ellittica
+
+## CAP. 7) Momenti d'inerzia
+### 7.6 Teorema di Huygeng-Steiner
+Il calcolo dei momenti d'inerzia riguarda gli assi di rotazioni particolari, ossia quelli che passano per il centro di massa. Se si scelgono degli assi a caso, gli integrali fanno schifo **NON FARLO**.
+Il teorema dice che il momento d'inerzia di un corpo con massa $m$ rispetto ad un asse che non passa per il centro di massa è dato da:
+$$
+I=I_C+ma^2
+$$
+dove $I_C$ è il momento d'inerzia del corpo rispetto ad un asse parallelo al primo e passante per il centro di massa ed accelerazione uguale alla distanza tra i due assi paralleli.
+![[Primo anno/Fisica/30.png|350]]
+Il momento d'inerzia di un punto $P_1$
+$$
+m_ir_i^2=m_i(x_i^2+y_i^2)
+$$
+che sommato su tutti i punti vale:
+$$
+\begin{aligned}
+I_z&=\sum_im_i(x_i^2+y_i^2) \\
+&=\sum_i[x_i^2+(y_i'a)^2] \\
+&=\sum_im_i(x_i^2+y_i^2)+\sum_im_ia^2+2a\sum_im_iy_i'
+\end{aligned}
+$$
