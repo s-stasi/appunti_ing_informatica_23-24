@@ -1,7 +1,7 @@
 # C++
 
 ```cpp
-#include <iostream>
+[[include]] <iostream>
 
 using namespace std;
 
@@ -14,19 +14,19 @@ int main() {
 ## Include
 
 ```cpp
-#include <iostream>
+[[include]] <iostream>
 ```
 
 **#include** è una direttiva per il preprocessore o precompilatore che serve per includere file o librerie nel codice che si sta scrivendo. Includendo un file sarà possibile utilizzare tutte le classi, le funzioni, i namespace e le variabili presenti all'interno.
 
 In questo caso si sta importando la libreria standard **iostream**, che serve per operazioni di input e output con la console.
 
-Ci sono due tipi di #include:
+Ci sono due tipi di [[include]]:
 
 - Con le parentesi angolari:
   
   ```cpp
-  #include <iostream>
+  [[include]] <iostream>
   ```
   
   Si utilizza per includere le librerie non presenti nella cartella in cui si sta lavorando ma inserite all'interno delle cartelle predefinite per la ricerca dei file del compilatore.
@@ -34,7 +34,7 @@ Ci sono due tipi di #include:
 - Con le virgolette:
   
   ```cpp
-  #include "file.cpp"
+  [[include]] "file.cpp"
   ```
   
   Si utilizza per includere i file presenti nella cartella in cui si sta lavorando oppure nelle sottocartelle.
@@ -126,7 +126,7 @@ using namespace std;
 L'esempio del professore senza questa riga sarebbe così:
 
 ```cpp
-#include <iostream>
+[[include]] <iostream>
 
 int main() {
   std::cout << "Ciao mondo";

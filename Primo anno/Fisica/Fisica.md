@@ -2262,7 +2262,7 @@ $$
 I=I_C+ma^2
 $$
 dove $I_C$ è il momento d'inerzia del corpo rispetto ad un asse parallelo al primo e passante per il centro di massa ed accelerazione uguale alla distanza tra i due assi paralleli.
-![[Primo anno/Fisica/Fisica_images/30.png|350]]
+![[Primo anno/Fisica/30.png|350]]
 Il momento d'inerzia di un punto $P_1$
 $$
 m_ir_i^2=m_i(x_i^2+y_i^2)
