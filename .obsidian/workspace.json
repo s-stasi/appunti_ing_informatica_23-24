@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primo anno/Fisica/Fisica.md",
+                "file": "Secondo Anno/Statistica/Statistica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fisica"
+              "title": "Statistica"
             }
           }
         ]
@@ -184,10 +184,12 @@
   },
   "active": "9cdb69ea4892a598",
   "lastOpenFiles": [
+    "Secondo Anno/Statistica/Statistica.pdf",
+    "Secondo Anno/Statistica/Statistica.md",
+    "Primo anno/Fisica/Fisica.md",
     "Primo anno/Fisica/Esercitazione 4.pdf",
     "Primo anno/Fisica/Images/10.png",
     "Primo anno/Fisica/Images/2.png",
-    "Primo anno/Fisica/Fisica.md",
     "Primo anno/Fisica/Images",
     "Untitled",
     "image_paths.py",
@@ -210,7 +212,6 @@
     "Primo anno/Fisica/Esercitazione 1.pdf",
     "Primo anno/Fisica/Cinematica.md",
     "Primo anno/Fisica/Fisica 2.md",
-    "Fisica.pdf",
     "2024-12-05.md",
     "Primo anno/Fisica/Fisica1.md",
     "Secondo Anno/Statistica/Codice/Prova.md"
