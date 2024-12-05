@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cc4762cd7dc13055",
+        "id": "e46c3531dea3340b",
         "type": "tabs",
         "children": [
           {
-            "id": "85f405590c35eab5",
+            "id": "d76749ab33fe9a64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "Primo anno/Fisica/Fisica.md",
-                "mode": "source",
-                "source": false
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "Fisica"
+              "icon": "git-pull-request",
+              "title": "Diff View (Fisica)"
             }
           }
         ]
@@ -52,8 +51,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "%20",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -182,13 +181,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "85f405590c35eab5",
+  "active": "d76749ab33fe9a64",
   "lastOpenFiles": [
-    "Primo anno/Fisica/8.png",
-    "Primo anno/Fisica/16.png",
-    "Primo anno/Fisica/Fisica.md",
-    "Primo anno/Fisica/1.png",
     "Primo anno/Fisica/30.png",
+    "Primo anno/Fisica/Fisica.md",
+    "30 1.png",
+    "30.png",
+    "Primo anno/Fisica/29.png",
+    "Primo anno/Fisica/28.png",
+    "Secondo Anno/Statistica/9.png",
+    "Secondo Anno/Statistica/8.png",
+    "Secondo Anno/Statistica/7.png",
+    "Secondo Anno/Statistica/6.png",
+    "Secondo Anno/Statistica/5.png",
+    "Secondo Anno/Statistica/4.png",
+    "Secondo Anno/Elettrotecnica/Elettrotecnica.md",
+    "Secondo Anno/Elettrotecnica/Elettrotecnica.pdf",
+    "Secondo Anno/Fondamenti di automatica/Fondamenti di automatica.md",
+    "Secondo Anno/Fondamenti di automatica/Esercitazione1.md",
+    "Primo anno/Fisica/Fisica.pdf",
+    "Untitled.canvas",
+    "image_paths.py",
     "Primo anno/Fisica/Cinematica.pdf",
     "Primo anno/Fisica/Fisica_images",
     "Primo anno/Fisica/Esercitazione 1.pdf",
@@ -196,13 +209,7 @@
     "Primo anno/Fisica/Fisica 2.md",
     "Fisica.pdf",
     "2024-12-05.md",
-    "Untitled.canvas",
-    "Primo anno/Fisica/appunti gaia/WhatsApp Image 2024-11-11 at 20.31.56.jpeg",
-    "Primo anno/Fisica/Schermata 2024-12-05 alle 12.47.00.png",
     "Primo anno/Fisica/Fisica1.md",
-    "Secondo Anno/Statistica/Codice/Prova.md",
-    "Secondo Anno/Fondamenti di automatica/Fondamenti di automatica.md",
-    "Secondo Anno/Fondamenti di automatica/Esercitazione1.md",
-    "Secondo Anno/Fondamenti di automatica/5.png"
+    "Secondo Anno/Statistica/Codice/Prova.md"
   ]
 }
