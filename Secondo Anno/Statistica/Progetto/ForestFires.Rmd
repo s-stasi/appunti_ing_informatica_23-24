@@ -62,7 +62,7 @@ ggplot(dataset, aes(x = X, y = Y)) +
         axis.ticks=element_blank(),
         title = element_text(size = 10))
 ```
-
+## Contenuto del dataset
 Il dataset in esame contiene le seguenti variabili:
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
