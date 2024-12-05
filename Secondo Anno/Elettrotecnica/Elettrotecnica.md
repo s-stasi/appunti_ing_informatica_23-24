@@ -92,7 +92,7 @@ che è l'equazione di continuità sempre nel regime stazionario
 
 ### Bipoli
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/Schermata%202024-09-19%20alle%2011.52.43.png" alt="" width="271" data-align="inline"> Bipolo in cui i due capi sono i morsetti o poli
+![[Secondo Anno/Elettrotecnica/Schermata 2024-09-19 alle 11.52.43.png]] Bipolo in cui i due capi sono i morsetti o poli
 
 Il bipolo è un modello matematico di un fenomeno elettrico di nostro interesse, ma oltre ad avere una rappresentazione matematica ha anche un simbolo.
 
@@ -108,7 +108,7 @@ $$
 R=\rho\frac{l_{unghezza}}{S_{ezione}}\qquad \text{resistività}
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/Schermata%202024-09-19%20alle%2012.00.53.png" alt="" width="184"> La resistenza dipenda dalle dimensioni e dal materiale usato
+![[Secondo Anno/Elettrotecnica/Schermata 2024-09-19 alle 12.00.53.png]] La resistenza dipenda dalle dimensioni e dal materiale usato
 
 $$
 I=GV\qquad \text{conduttanza}
@@ -128,7 +128,7 @@ La resistività permette di fare una classificazione dei materiali in:
 
 ### Resistore
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/Schermata%202024-09-19%20alle%2012.06.33.png" alt="" width="350" data-align="center">
+![[Secondo Anno/Elettrotecnica/Schermata 2024-09-19 alle 12.06.33.png]]
 
 $V$ è l differenza di potenziale tra il morsetto in cui la $I$ è entrante e quello in cui è uscente.
 
@@ -140,7 +140,7 @@ $V$ è l differenza di potenziale tra il morsetto in cui la $I$ è entrante e qu
 
 ### Generatore ideale di tensione e corrente
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/Schermata%202024-09-19%20alle%2012.31.35.png" alt="" data-align="inline" width="245">                      <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/Schermata%202024-09-19%20alle%2012.35.49.png" alt="" width="273">
+![[Secondo Anno/Elettrotecnica/Schermata 2024-09-19 alle 12.31.35.png]]                      ![[Secondo Anno/Elettrotecnica/Schermata 2024-09-19 alle 12.35.49.png]]
 
 Il generatore ideale di tensione è ideale se la forza elettro-motrice che genera non dipende dalla corrente che circola. Quindi la sua caratteristica è una retta parallela all'asse della corrente.
 
@@ -154,7 +154,7 @@ Questi generatori non sono realizzabili nella realtà a meno che non si usi un d
 
 ### Generatori reali
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/Schermata%202024-09-19%20alle%2012.40.59.png" alt="" data-align="inline" width="257">                    <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/Schermata%202024-09-19%20alle%2012.41.09.png" alt="" width="268">
+![[Secondo Anno/Elettrotecnica/Schermata 2024-09-19 alle 12.40.59.png]]                    ![[Secondo Anno/Elettrotecnica/Schermata 2024-09-19 alle 12.41.09.png]]
 
 Una modellizzazione più realistica dei generatori è quella di associare ad un generatore di tensione una resistenza in serie, mentre a quello di corrente una resistenza in parallelo. Le resistenze rappresentano la caduta di tensione che la corrente ha passando all'interno del generatore di tensione e la caduta di potenza per il generatori di corrente.
 
@@ -226,7 +226,7 @@ Equazioni:
 
 - $l$ equazioni di Ohm (certamente indipendenti)
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/8.png" alt="Schermata 2024-09-25 alle 11.22.29.png" width="228" data-align="center">
+![[Secondo Anno/Elettrotecnica/8.png]]
 
 Una `rete piana` è una rete per la quale riesco a disegnarne il grafo senza far accavallare due o più lati
 
@@ -242,7 +242,7 @@ Per la soluzione si possono usare tre diversi metodi:
 
 **Metodo delle correnti di lato**
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-09-26%20alle%2016.13.10.png" alt="Schermata 2024-09-26 alle 16.13.10.png" width="183">                                                      <img title="" src="file:///Users/xtc/Desktop/Schermata%202024-09-26%20alle%2016.12.59.png" alt="Schermata 2024-09-26 alle 16.12.59.png" width="182">
+![[/Users/xtc/Desktop/Schermata 2024-09-26 alle 16.13.10.png]]                                                      ![[/Users/xtc/Desktop/Schermata 2024-09-26 alle 16.12.59.png]]
 
 $R_i=5\Omega$    $E_3=30V$    $E_5=50V$    $E_7=70V$
 
@@ -330,13 +330,13 @@ $$
 
 ### Generatori equivalenti
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/9.png" alt="Schermata 2024-09-26 alle 12.29.06.png" width="312" data-align="center">
+![[Secondo Anno/Elettrotecnica/9.png]]
 
 E' possibile sostituire un generatore di tensione con un generatore di corrente equivalente?
 
 Si ma solo se la legge tensione-corrente dei due generatori è uguale.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/10.png" alt="Schermata 2024-09-26 alle 12.32.52.png" width="279" data-align="center">
+![[Secondo Anno/Elettrotecnica/10.png]]
 
 I punti dei grafici sull'asse delle ordinate sono detti **punti di funzionamento a vuoto** in cui la corrente $=$ 0. Il **punto di corto circuito (ctocto)** è un punto sull'asse delle ascisse in cui la tensione $=$ 0
 
@@ -346,7 +346,7 @@ Una rete è `lineare` quando tutti i bipoli al suo interno sono lineari, per que
 
 Se la rete è `non lineare` la sua soluzione è quella grafica.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/11.png" alt="Schermata 2024-09-27 alle 09.09.05.png" data-align="inline" width="231">                                                  <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/12.png" alt="Schermata 2024-09-27 alle 09.09.31.png" width="156" data-align="inline">
+![[Secondo Anno/Elettrotecnica/11.png]]                                                  ![[Secondo Anno/Elettrotecnica/12.png]]
 
 Il secondo screen rappresenta la soluzione usando il metodo della `sovrapposizione`, che consiste nello spegnere tutti i generatori per volta tranne uno e risolvere la rete con quello. Alla fine si sommano i risultati.
 
@@ -354,7 +354,7 @@ Il secondo screen rappresenta la soluzione usando il metodo della `sovrapposizio
 
 Il teorema di Thevenin dice che una qualunque rete lineare vista da due dei suoi nodi può essere sostituita da un generatore ideale di tensione che genera la tensione a vuoto tra i due nodi e da una resistenza equivalente alla somma di tutte le resistenze nella rete
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/13.png" alt="Schermata 2024-09-27 alle 09.13.58.png" width="287" data-align="center">
+![[Secondo Anno/Elettrotecnica/13.png]]
 
 ### Teorema di Norton
 
@@ -362,17 +362,17 @@ Una qualunque rete lineare vista da due suoi nodi può essere sostituita con un
 equivalente costituita da: un generatore di corrente che eroga la corrente di cto cto tra due
 nodi, in parallelo con una conduttanza di valore pari alla conduttanza di tutta la rete in questione, passiva, vista degli stessi due nodi.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/14.png" alt="Schermata 2024-09-27 alle 09.15.15.png" data-align="center" width="281">
+![[Secondo Anno/Elettrotecnica/14.png]]
 
 **Esercizio**
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Elettrotecnica/15.png" alt="Schermata 2024-10-02 alle 10.43.43.png" width="413" data-align="center">
+![[Secondo Anno/Elettrotecnica/15.png]]
 
 Si vuole sapere la differenza di potenziale e la corrente ai capi di $A$ e $B$. Per la risoluzione di questo problema si possono usare tutti e quattro i metodi che abbiamo visto (nodi, maglie, lati e sovrapposizione).
 
 Si può usare il teorema di Thevenin, quindi spegnere un generatore alla volta e studiare il circuito in modo passivo. 
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/16.png" alt="" data-align="center" width="431">
+![[Secondo Anno/Elettrotecnica/16.png]]
 
 Il primo generatore da spegnere è quello di corrente. In questo caso la tensione è 0 perché tutto circola solo nella prima maglia di sinistra essendo presente un circuito aperto.
 
@@ -380,7 +380,7 @@ $$
 V_0' = 0V
 $$
 
-                <img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/17.png" title="" alt="" width="305">                <img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/18.png" title="" alt="" width="170">
+                ![[Secondo Anno/Elettrotecnica/17.png]]                ![[Secondo Anno/Elettrotecnica/18.png]]
 
 Spegnendo invece il generatore di tensione si semplifica il circuito tagliando la maglia di sinistra perché la corrente circola solo a destra. Facendo in questo modo si ha che:
 
@@ -396,15 +396,15 @@ $$
 
 Per calcolare la resistenza totale del circuito bisogna spegnere tutti e due i generatori lasciando il circuito totalmente scarico:
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/19.png" alt="" data-align="center" width="410">
+![[Secondo Anno/Elettrotecnica/19.png]]
 
 Da qui si nota che la resistenza equivalente vale solo $5\Omega$. Quindi il generatore reale equivalente al circuito sarà quello che genera $50V$ e ha una resistenza interna di $5\Omega$.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/20.png" alt="" data-align="center" width="190">
+![[Secondo Anno/Elettrotecnica/20.png]]
 
 ### Misurazione di grandezze elettriche
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/21.png" alt="" data-align="center" width="389">
+![[Secondo Anno/Elettrotecnica/21.png]]
 
 In un circuito elettrico, è importante misurare correttamente grandezze come la corrente e la tensione. Per fare ciò, si utilizzano due strumenti fondamentali:
 
@@ -418,7 +418,7 @@ I due simboli nell'immagine **NON SONO BIPOLI** ma sono soltanto simboli per ind
 
 #### Metodo voltamperometrico
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/22.png" alt="" width="275" data-align="center">
+![[Secondo Anno/Elettrotecnica/22.png]]
 
 Il **metodo voltamperometrico** è una tecnica utilizzata per misurare la potenza in un circuito elettrico. Questa misura si ottiene utilizzando contemporaneamente un **voltmetro** e un **amperometro**. Di solito, questo metodo viene utilizzato per circuiti in corrente continua o alternata. 
 
@@ -456,7 +456,7 @@ L'**effetto Joule** descrive come la potenza elettrica si trasforma in calore in
 
 #### Potenza elettrica
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/23.png" title="" alt="" width="205">              <img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/24.png" title="" alt="" width="347">
+![[Secondo Anno/Elettrotecnica/23.png]]              ![[Secondo Anno/Elettrotecnica/24.png]]
 
 La **potenza elettrica** è la quantità di energia per unità di tempo che viene trasferita o consumata in un circuito. Si calcola come il prodotto tra la tensione \( V \) e la corrente \( I \):
 
@@ -494,7 +494,7 @@ Per misurare la potenza attiva in un circuito, si utilizza il **wattmetro**. Que
 
 Il wattmetro viene collegato al circuito sia in serie (per misurare la corrente) che in parallelo (per misurare la tensione), e la sua funzione principale è quella di indicare quanta potenza viene trasferita o assorbita da un elemento del circuito.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/25.png" alt="" data-align="center" width="295">
+![[Secondo Anno/Elettrotecnica/25.png]]
 
 Il Wattmetro ha 4 morsetti.
 
@@ -639,11 +639,11 @@ Da questo deduciamo che si potrà fare Kirchhoff anche con i circuiti magnetici,
 
 In ogni punto del circuito magnetico i vettori campo e induzione saranno sempre coincidenti ma con modulo diverso. Se una linea di campo attraversa la linea che divide due materiali con permeabilità magnetica diversa ($\mu_1$ e $\mu_2$) il vettore induzione resta uguale, mentre il vettore campo cambia. Quindi il vettore induzione resterà uguale per tutto il percorso del campo. Il modulo del vettore campo cambia in modo inversamente proporzionale rispetto alla variazione di permeabilità dei materiali che attraversa.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/31.png" alt="" width="215" data-align="center">
+![[Secondo Anno/Elettrotecnica/31.png]]
 
 Il **tubo di flusso** è una regione di spazio di forma generalmente cilindrica avente il contorno sempre parallelo alle linee di forza. Il flusso magnetico $\phi$ all'interno del tubo di flusso è costante. Attenzione al fatto che sebbene il flusso sia continuo, la stessa cosa non si può dire della **densità del flusso** che può variare.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/32.png" alt="" data-align="center" width="223">
+![[Secondo Anno/Elettrotecnica/32.png]]
 
 In tutto il percorso il valore del flusso del vettore induzione sarà costante. Lungo il circuito la sezione potrà restringersi e allargarsi, e di conseguenza l'induzione sarà rispettivamente più grande o più piccola. Si consideri, per ogni posizione $\lambda$ del circuito, l'area della superficie normale, punto per punto, al campo magnetico, e la permeabilità magnetica relativa del materiale attraversato sarà:
 
@@ -661,7 +661,7 @@ I valori del campo e dell'induzione sono proporzionali sono alla corrente e al n
 
 Il **Circuito magnetico** è realizzato in materiale ferromagnetico ed è interessato dall'attraversamento di un flusso magnetico $\Phi$ generato dalla forza magneto-motrice $N\cdot I$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/33.png" alt="" data-align="center" width="319">
+![[Secondo Anno/Elettrotecnica/33.png]]
 
 Il circuito magnetico è costituito da tronchi dove i verticali sono detti colonne, mentre gli orizzontali sono chiamati gioghi. Le interruzioni del percorso in ferro sono denominate traferri.
 
@@ -713,7 +713,7 @@ $$
 R=\frac{l}{\mu\cdot S}\left[\frac{1}{H}\right]
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/27.png" alt="" data-align="inline" width="293">                   <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/26.png" alt="" width="285">
+![[Secondo Anno/Elettrotecnica/27.png]]                   ![[Secondo Anno/Elettrotecnica/26.png]]
 
 La rappresentazione del circuito magnetico è come quella riportata sopra, come si vede compaiono anche qui le resistenze, nel nostro caso la Req è la riluttanza equivalente, che corrisponde a tutto il percorso chiuso che parte dalla testa del solenoide e rientra dal sotto.
 
@@ -735,7 +735,7 @@ $$
 
 Da questo scopriamo un nuovo fenomeno detto **induzione magnetica**. Quando considero un conduttore percorso da corrente, quel medesimo conduttore concatena il flusso, ma se le derivate rispetto al tempo non sono più zero, allora $E= $ alla derivata del flusso rispetto al tempo.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/34.png" alt="" width="258">          <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/35.png" alt="" width="118">           <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/36.png" alt="" width="194">
+![[Secondo Anno/Elettrotecnica/34.png]]          ![[Secondo Anno/Elettrotecnica/35.png]]           ![[Secondo Anno/Elettrotecnica/36.png]]
 
 Se avessi un solenoide la tensione sarebbe sempre la derivata del flusso, invece l’induttanza sarà il prodotto di $N$ spire per il flusso. Si ricorda che usiamo la convenzione degli utilizzatori.
 
@@ -757,7 +757,7 @@ $$
 
 Nel caso di un solenoide la tensione si deriva sempre dal flusso, mentre l'induttanza vale $N_{\text{spire}}*\Phi$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/37.png" alt="" width="190" data-align="inline">                               <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/38.png" alt="" width="344">
+![[Secondo Anno/Elettrotecnica/37.png]]                               ![[Secondo Anno/Elettrotecnica/38.png]]
 
 $$
 V=\frac{N^2}{R}\frac{di}{dt}
@@ -773,7 +773,7 @@ Ecco degli appunti sulla mutua induttanza, basati su quanto mostrato nell'immagi
 
 ### Modello a Due Avvolgimenti
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/39.png" alt="" data-align="center" width="455">
+![[Secondo Anno/Elettrotecnica/39.png]]
 
 Nell'immagine viene mostrato un modello con due avvolgimenti:
 
@@ -825,7 +825,7 @@ Dove:
 
 ### Schema con resistenze e induttanze
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/40.png" alt="" data-align="inline" width="377">                                        <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/41.png" alt="" width="125">
+![[Secondo Anno/Elettrotecnica/40.png]]                                        ![[Secondo Anno/Elettrotecnica/41.png]]
 
 Il comportamento elettrico dei due circuiti è descritto da due equazioni:
 
@@ -864,17 +864,17 @@ La **permeabilità magnetica**, detta in modo grezzo, è l'abilità di un materi
 
 L'elevata permeabilità relativa dei ferromagnetici non è costante nel tempo, ma varia con l'intensità del campo magnetico, quindi la relazione $H-B$ non è lineare.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/43.png" title="" alt="" data-align="center">
+![[Secondo Anno/Elettrotecnica/43.png]]
 
 La **caratteristica di magnetizzazione** presenta tre zone:
 
 - Nella zona **lineare** si hanno valori relativamente bassi di campo magnetico, nel quale il materiale è caratterizzato da un'elevata permeabilità magnetica e piccole variazioni nel campo magnetico causano elevate variazioni nei valori di densità di flusso.
   
-  <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/44.png" alt="" data-align="center" width="161">
+  ![[Secondo Anno/Elettrotecnica/44.png]]
 
 - Nella zona del **ginocchio** si ha un cambio di caratteristica di magnetizzazione. La zona è indicata come punto ottimale per il funzionamento del circuito magnetico.
   
-  <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/45.png" alt="" data-align="center" width="173">
+  ![[Secondo Anno/Elettrotecnica/45.png]]
 
 - La **zona di saturazione** rappresenta valori grandi di intensità di campo. Con grandi variazioni di campo si hanno lievi variazioni di densità di flusso. In questa zona il comportamento del materiale è simile a quello dell'aria.
 
@@ -890,11 +890,11 @@ Il sistema è modellato come due circuiti accoppiati magneticamente, con equazio
 
 Questi modelli sono fondamentali in dispositivi come i **trasformatori**, dove l'energia viene trasferita tra avvolgimenti attraverso il campo magnetico concatenato.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/42.png" alt="" data-align="center" width="384">
+![[Secondo Anno/Elettrotecnica/42.png]]
 
 Nel circuito magnetico disegnato sopra ogni numero viene gestito come un ramo di un circuito elettrico su cui viene applicata una resistenza derivante dalla riluttanza magnetica del materiale. Se sono presenti dei trafori si agisce allo stesso modo. Nel caso dei generatori magnetici si applica un generatore reale di tensione.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/46.png" alt="" data-align="center" width="189">
+![[Secondo Anno/Elettrotecnica/46.png]]
 
 Per calcolare la tensione del generatore equivalente di tensione si usa:
 
@@ -912,7 +912,7 @@ Per i trafori non si prende in considerazione il $\mu_r$ perché essendo l'aria 
 
 ### Potenza del campo magnetico
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/47.png" alt="" data-align="inline" width="268">          <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/48.png" alt="" width="345">
+![[Secondo Anno/Elettrotecnica/47.png]]          ![[Secondo Anno/Elettrotecnica/48.png]]
 
 Cominciando a parlare di **corrente variabile**, nel circuito magnetico si manifesta un fenomeno particolare: il **comportamento isteretico**. Questo comportamento si traduce nel fatto che al variare della corrente, il campo magnetico ha un comportamento diverso nella fase di aumento della corrente rispetto alla fase di diminuzione, quindi il bipolo è **non lineare**. Rappresentando la caratteristica di magnetizzazione su un grafico **BH** si ha che l'area tra l'andata e il ritorno è una perdita di corrente chiamata **perdita per isteresi**.
 
@@ -942,7 +942,7 @@ $$
 C=\frac{q}{V}
 $$
 
-                  ![](/Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/49.png)                             <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/50.png" alt="" width="204">
+                  ![](/Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/49.png)                             ![[Secondo Anno/Elettrotecnica/50.png]]
 
 Il problema di questa equazione è che non possiamo usarla con K. perché è espressa in termini di carica fratto tensione, mentre a noi serve in termini di tensione e correnti. Ma noi abbiamo già detto che 
 
@@ -960,13 +960,13 @@ Considerando le correnti dei condensatori riesco ad estendere le leggi di K. e r
 
 #### Esempio
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/51.png" alt="" data-align="center" width="503">
+![[Secondo Anno/Elettrotecnica/51.png]]
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/52.png" alt="" data-align="center" width="500">
+![[Secondo Anno/Elettrotecnica/52.png]]
 
 ### Funzione Periodica Alternata Sinusoidale (PAS)
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/53.png" alt="" data-align="center" width="398">
+![[Secondo Anno/Elettrotecnica/53.png]]
 
 Una funzione sinusoidale alternata può essere espressa nella forma:
 
@@ -990,7 +990,7 @@ Il grafico della funzione sinusoidale mostra come varia nel tempo $t$. Il valore
 
 #### Forma di Eulero di una funzione PAS
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Elettrotecnica/54.png" alt="" data-align="center" width="444">
+![[Secondo Anno/Elettrotecnica/54.png]]
 
 La rappresentazione in **forma di Eulero** della funzione PAS è data da:
 

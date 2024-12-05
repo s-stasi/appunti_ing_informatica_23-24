@@ -12,7 +12,7 @@ $$
 
 $x(t)$ è determinabile rilevando in una serie di istanti successivi a $t_1$ la posizione del punto materiale. Per rappresentare il moto si utilizza il **diagramma orario**, che è un piano cartesiano in cui sull'asse delle ascisse c'è il tempo, mentre su quello delle ordinate c'è la posizione
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/1.png" alt="" width="325" data-align="center">
+![[Primo anno/Fisica/Images/1.png]]
 
 Quando si effettua una misura fisica reale si generano per forza degli **errori sperimentali**, quindi i punti delle diverse misure non si dispongono sul diagramma in modo ordinato come una retta o una parabola. Per questo per esprimere $x(t)$ bisogna usare dei metodi analitici.
 
@@ -250,7 +250,7 @@ Nel moto circolare la traiettoria è una circonferenza di raggio $R=const$.
 
 La velocità $V$ cambia sempre in direzione dell'accelerazione centripeta $F_c$ che è sempre $\ne0$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/2.png" alt="" width="286">
+![[Primo anno/Fisica/Images/2.png]]
 
 #### Moto circolare uniforme
 
@@ -262,8 +262,11 @@ $a=a_n$ e punta al centro della circonferenza
 
 In questo caso il modulo di $V$ varia nel tempo e $a_T\ne 0$ il quanto la direzione dell'accelerazione non passa per il centro della circonferenza
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/3.png" alt="" width="203"> $S(t) \quad \text{rappresenta la coordinata curvilinea}\\
-\theta(t)=\frac{S(t)}{R} \text{ positivo se gira in senso antiorario}$
+![[Primo anno/Fisica/Images/3.png]] 
+$$
+S(t) \quad \text{rappresenta la coordinata curvilinea}
+\theta(t)=\frac{S(t)}{R} \text{ positivo se gira in senso antiorario}
+$$
 
 $$
 x(t) = R\cos\theta(t)\\
@@ -442,7 +445,7 @@ $$
 
 è ortogonale ad $A$ e indica la variazione di un vettore $dA$ ad esso ortogonale che cambia direzione ma ha modulo costante.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/4.png" title="" alt="" width="137">
+![[Primo anno/Fisica/Images/4.png]]
 
 Ciò che è stato detto vale per il moto circolare su un unico piano
 
@@ -450,7 +453,7 @@ Ciò che è stato detto vale per il moto circolare su un unico piano
 
 Nel moto parabolico la **gittata** sta a significare l'insieme di traiettoria, massima altezza raggiunta e posizione in cui il punto ricade. Solitamente si disegna su un piano $XY$ contenente $V_0$ con forza peso $a=g=-g\omega_y, r=0, V=V_0, t=t_0=0$.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/5.png" alt="" data-align="center" width="241">
+![[Primo anno/Fisica/Images/5.png]]
 
 $$
 V(t)=V_0+\int_{0}^t a(t')dt'=V_0-gtw_y\\
@@ -491,7 +494,7 @@ $$
 
 che a tutti gli effetti è l'equazione di una parabola.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo anno/Fisica/6.png" alt="" width="279" data-align="center">
+![[Primo anno/Fisica/Images/6.png]]
 
 Per calcolare la gittata, che è la distanza $\overline{OG}$, imponiamo $y(t)=0$ ottenendo $x=0$
 
@@ -519,7 +522,7 @@ $$
 
 e risolvendo si trova che l'angolo ottimale è sempre 45° ($\pi/2$)
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/7.png" alt="" data-align="center" width="398">Il tempo totale di volo $t_g$ è pari al tempo impiegato a percorrere $\overline{OG}$ con velocità costante $V_x=V_0\cos\theta$
+![[Primo anno/Fisica/Images/7.png]]Il tempo totale di volo $t_g$ è pari al tempo impiegato a percorrere $\overline{OG}$ con velocità costante $V_x=V_0\cos\theta$
 
 $$
 t_g = \frac{2x_m}{V_0\cos\theta}=\frac{2V_0\sin\theta}{g}=2t_m
@@ -555,13 +558,13 @@ La **forza** è una grandezza che esprime e misura l'interazione tra sistemi fis
 
 Quindi deve avere matrice vettoriale, ciò vuol dire che l'effetto della forza cambia con la direzione.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/8.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/8.png]]
 
 Nel caso b il piano orizzontale deformandosi produce una forza che si equilibra con quella applicata dall'esterno, questa reazione è chiamata **reazione vincolare**.
 
 La forza si misura con il **dinamometro**, che è a tutti gli effetti una molla
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/9.png" alt="" data-align="center" width="423">
+![[Primo anno/Fisica/Images/9.png]]
 
 Appendo ad una estremità di una molla una massa ($m$) che risente della forza di attrazione della terra ($mg$) e viene eguagliata dalla forza della molla.
 
@@ -667,7 +670,7 @@ $$
 
 Si parla, a tale proposito, di indipendenza delle azioni simultanee. Se un punto ha un'accelerazione nulla non significa che non agiscono forze, ma che $R=0$. Se $R=0$ e la velocità iniziale è nulla esso rimane in quiete: sono realizzate le condizioni di equilibrio sttico del punto.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/10.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/10.png]]
 
 ogni forza è opposta e ha modulo eguale alla risultante delle altre due.
 
@@ -675,7 +678,7 @@ ogni forza è opposta e ha modulo eguale alla risultante delle altre due.
 
 Se un corpo soggetto a una forza o a una risultante di forze resta fermo, l'azione provoca una reazione nell'ambiente circostante chiamata **reazione vincolare**.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/11.png" alt="" width="199" data-align="center">
+![[Primo anno/Fisica/Images/11.png]]
 
 Si esprime tramite una forza uguale e contraria alla forza o risultante delle forze agenti. Il corpo rimane in quiete. Ad attrazione terrestre si equivale una reazione vincolare $N$. La reazione vincolare non è determinabile a priori utilizzando una formula, ma deve essere ricavata caso per caso dall'esame delle condizioni fisiche.
 
@@ -790,7 +793,7 @@ $$
 
 - per $x<0$ se $l<l_0$
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/12.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/12.png]]
 
 $p$ e $Q$ sono punti fermi e per questo le forze applicate sono eguali ed opposte. 
 
@@ -848,7 +851,7 @@ $$
 T_g=m\cdot g
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/13.png" alt="" data-align="center" width="235">
+![[Primo anno/Fisica/Images/13.png]]
 
 Se si sposta il punto dalla posizione verticale, esso oscillerà attorno ad $O'$ con traiettoria circolare di raggio $L$, che è la lunghezza del filo.
 
@@ -927,7 +930,7 @@ $$
 \Delta T=T'-T
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/14.png" alt="" data-align="center" width="269">
+![[Primo anno/Fisica/Images/14.png]]
 
 Variazione relativa del periodo di un pendolo semplice in funzione dell'ampiezza angolare di oscillazione $T'\cong1,16T$ .
 
@@ -949,7 +952,7 @@ Se $\theta_0=\frac{\pi}{2}$ l'inversione del moto si ha quando la corda è orizz
 
 - $V$ iniziale è diversa da 0 o che rimane costante in modulo
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/15.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/15.png]]
 
 Il moto del pendolo semplice ha le seguenti caratarishtike:
 
@@ -967,7 +970,7 @@ Il moto del pendolo semplice ha le seguenti caratarishtike:
 
 La forza è considerata come funzione della posizione dal punto.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/16.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/16.png]]
 
 Consideriamo un punto materiale che si muove su una traiettoria curva. $F$ è la risultante delle forze che agiscono su $p$. Lo spostamento può essere scomposto nella somma di spostamenti elementari infinitesimi $ds$ nei quali $F$ assume diversi valori sia di intensità che di direzione e verso.
 
@@ -1251,7 +1254,7 @@ $$
 
 Un osservatore in $\Omega$ percepisce la rotazione.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/17.png" alt="" width="191" data-align="center">
+![[Primo anno/Fisica/Images/17.png]]
 
 Il momento angolare, o momento del vettore, è la quantità di moto di $P$ rispetto al polo $\Omega$
 
@@ -1443,7 +1446,7 @@ E_m&=\frac{1}2mV^2(x)+\frac{1}2kx^2
 \end{aligned}
 $$
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/19.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/19.png]]
 
 Imponendo la conservazione dell'energia ottengo l'equazione differenziale del moto
 
@@ -1528,7 +1531,7 @@ $$
 
 C'è un altro modo: Fresnel basata sul fatto che la proiezione di un moto circolare su un diametro è un moto armonico. 
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/20.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/20.png]]
 
 $A_1=$ vettore ruotante in senso antiorario nel piano $x,y$ con velocità angolare $\omega$, forma $\delta_1=\omega t+\phi_1$ con asse $x$. La proiezione sull'asse delle $y$ vale $A_1\sin(\omega t+\phi_1)$. $S$ è la differenza di fase tra le due sinusoidi
 
@@ -1595,7 +1598,7 @@ $$
 
 per $\Omega<\omega$ si ha il fenomeno del battimento. Nelle trasmissioni in modulazione d'ampiezza (AM) avremo che $\omega$ è la pulsazione della portante, mentre $\Omega$ è la pulsazione del segnale modulante (ea. generato da un microfono).
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/21.png" alt="" data-align="center" width="350">
+![[Primo anno/Fisica/Images/21.png]]
 
 ### 4.5 Composizione di moti armonici lungo assi ortogonali
 
@@ -1680,7 +1683,7 @@ $$
 
 la somma delle due da l'energia meccanica totale che è indipendente dallo sfasamento, diventa complicata se le pulsazioni sono diverse. In particolare si ottiene un moto periodico nel quale le traiettorie del punto nel piano sono delle figure di Lissajous.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/22.jpg" alt="" width="365">Figura di Lissajous
+![[22.jpg]]Figura di Lissajous
 
 ### 4.6 Oscillatore armonico smorzato da una forza di attrito viscoso
 
@@ -1747,7 +1750,7 @@ Ci sono delle categorie che indicano i diversi comportamenti del sistema a secon
 
 Le curve dicono quanto ci mette il sistema a tornare al punto di equilibrio $x=0$ senza oscillazioni e con una diversa velocità.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/23.png" title="" alt="" data-align="center">
+![[Primo anno/Fisica/Images/23.png]]
 
 Se lo smorzamento è forte o critico non abbiamo oscillazioni.
 
@@ -1801,7 +1804,7 @@ Questo è un moto non periodico
 
 ### 5.2 Centro di massa di un sistema di punti. Teorema del moto del centro di massa
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/25.png" title="" alt="" width="237">
+![[Primo anno/Fisica/Images/25.png]]
 
 Il centro di massa di un sistema di punti materiali è definito come il punto geometrico la cui posizione è individuata in $O_{xyz}$ dal raggio del vettore
 
@@ -1821,7 +1824,7 @@ $$
 
 La posizione del centro di massa rispetto a $n$ punti materiali non dipende dal sistema di riferimento a diversa distanza delle coordinate
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/26.png" alt="" width="255" data-align="center">
+![[Primo anno/Fisica/Images/26.png]]
 
 $$
 OO'=r_i-r_i'\\
@@ -1893,7 +1896,7 @@ quindi le forze sono uguali in modulo ma di verso opposto. Questo non ha niente 
 
 Il principio di conservazione della quantità di moto permette di trovale $m$
 
-![](/Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/27.png) <img title="" src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/28.png" alt="" width="171">
+![](/Users/xtc/Desktop/appunti/uni/Primo%20anno/Fisica/27.png) ![[Primo anno/Fisica/Images/28.png]]
 
 nel primo caso la molla si espande perché i punti vanno in versi opposti ma $P=0$ per via della forza inerziale, mentre nel secondo la molla è compressa.
 

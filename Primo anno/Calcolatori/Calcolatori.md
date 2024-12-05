@@ -179,7 +179,7 @@ Lo XOR mette 1 solo se uno dei die valori è 1.
 
 # ALU (Arithmetic Logic Unit)
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2018.49.15.png" alt="" width="205" data-align="inline"> ALU a 1 bit.
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 18.49.15.png]] ALU a 1 bit.
 
 Per costruire una ALU a 32 bit si possono unire 32 ALU a 1 bit.
 
@@ -187,27 +187,27 @@ Per costruire una ALU a 32 bit si possono unire 32 ALU a 1 bit.
 
 Per costruire una ALU a 1 bit che implementi le operazioni AND e OR bisogna essere in grado di eseguire l'operazione corretta in base al valore del bit **operation**. Per fare questo, visto che abbiamo solo due possibili operazioni, possiamo usare un **multiplexer (mux)** a due ingressi. Collegando i risultati dei gate AND e OR ai due ingressi del mux, possiamo decidere quale risultato mandar fuori.
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2018.54.49.png" title="" alt="" width="190"> ALU a 1 bit con mux
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 18.54.49.png]] ALU a 1 bit con mux
 
 Ora si passa alla somma. Per sommare due numeri dobbiamo considerare anche il resto della somma del blocco precedente e il resto generato da quello corrente.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2018.58.12.png" alt="" width="184" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 18.58.12.png]]
 
 Per integrare questa operazione nella nostra ALU devo estendere il mux, che ora sarà a 3 ingressi. devo anche aggiungere un ingresso per il **CarryIn** e un'uscita per il **CarryOut**. Unendo più ALU dobbiamo ricordarci di unire un il CarryOut di un blocco con il CarryIn del blocco successivo.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2019.01.09.png" alt="" width="277"> <img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2019.01.19.png" alt="" width="244">
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 19.01.09.png]] ![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 19.01.19.png]]
 
 Supportare la sottrazione è una cosa semplice, basta negare $b$ e aggiungere 1 per fare il complemento a 2, aggiungendo un mux a due ingressi per attivare o meno la sottrazione.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2019.04.35.png" alt="" width="240" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 19.04.35.png]]
 
 Per supportare l'istruzione slt (set if less than) bisogna usare un test di uguaglianza. Siccome sono tutte operazioni aritmetiche si può usare una sottrazione perché se $(a - b) = 0$, allora $a=b$.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2019.48.24.png" alt="" data-align="center" width="210">
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 19.48.24.png]]
 
 Per implementare un'uguaglianza si controlla che l'output di tutti i risultati sia 0 con un and e si nega.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2019.50.59.png" alt="" data-align="center" width="223">
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 19.50.59.png]]
 
 #### Moltiplicazione
 
@@ -420,7 +420,7 @@ Le mappe di Karnaugh (K-map) sono uno strumento grafico per semplificare espress
    - Ogni gruppo di celle genera un termine dell'espressione semplificata.
    - Un gruppo elimina le variabili che cambiano all'interno del gruppo.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-06%20alle%2020.21.45.png" alt="" width="438" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-06 alle 20.21.45.png]]
 
 #### Esempio
 
@@ -702,9 +702,9 @@ Un elemento "unclocked" (asincrono), come un set-reset latch, è un componente c
 - **Uscita Q**: L'uscita che mantiene il valore memorizzato.
 - **Uscita Q' (opzionale)**: L'uscita complementare di Q.
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2017.37.39.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 17.37.39.png]]
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2017.37.49.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 17.37.49.png]]
 
 #### Funzionamento:
 
@@ -742,9 +742,9 @@ Un elemento "unclocked" (asincrono), come un set-reset latch, è un componente c
 - **Uscita Q**: L'uscita che mantiene il valore memorizzato.
 - **Uscita Q' (opzionale)**: L'uscita complementare di Q.
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2017.42.31.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 17.42.31.png]]
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2017.42.36.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 17.42.36.png]]
 
 #### Funzionamento:
 
@@ -795,43 +795,43 @@ Un "register file" (insieme di registri) è un componente essenziale di molti pr
 
 Tutte le operazioni di lettura e scrittura sono temporizzate dal clock.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.00.53.png" alt="" data-align="center" width="214">
+![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.00.53.png]]
 
 #### Lettura
 
 Le operazioni di lettura sono gestite da due mux, il cui output è definito dai numeri negli ingressi di lettura.
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.05.37.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.05.37.png]]
 
 #### Scrittura
 
 Durante la scrittura, un decodificatore seleziona il registro su cui scrivere e l'operazione viene effettivamente attuata solo quando il write è affermativo sul pin del clock.
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.08.37.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.08.37.png]]
 
 ### Implementazione dell'architettura
 
 Per implementare l'architettura completa ci vogliono alcuni elementi funzionali:
 
-1) <img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.12.17.png" alt="" width="137">  Instruction memory
+1) ![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.12.17.png]]  Instruction memory
 
 2) ![](/Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.12.24.png) Program counter
 
-3) <img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.12.29.png" title="" alt="" width="140"> Adder
+3) ![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.12.29.png]] Adder
 
-4) <img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.12.37.png" title="" alt="" width="215"> Registers
+4) ![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.12.37.png]] Registers
 
-5) <img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.12.43.png" title="" alt="" width="132"> ALU
+5) ![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.12.43.png]] ALU
 
-6) <img src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.12.51.png" title="" alt="" width="135"> Data memory unit
+6) ![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.12.51.png]] Data memory unit
 
-7) <img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-09%20alle%2018.12.57.png" alt="" width="130"> Sign extension unit
+7) ![[/Users/xtc/Desktop/Schermata 2024-06-09 alle 18.12.57.png]] Sign extension unit
 
 #### Istruzioni e program counter
 
 Dopo ogni istruzione il program counter va incrementato di 4. Viene fatto con un adder che prende com input il PC e 4. Una volta incrementato viene passato all' instruction memory, che come output ha l'istruzione che viene puntata dal PC.
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-06-10%20alle%2010.09.34.png" alt="" width="251" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-06-10 alle 10.09.34.png]]
 
 La suddetta istruzione viene decodificata e se è di tipo R viene passata al register file che manda il contenuto dei registri interessati alla ALU per fare i calcoli. La ALU rimanda poi al register file il risultato dell'operazione da salvare nel registro di destinazione.
 
@@ -861,7 +861,7 @@ Alcune operazioni, come ad esempio le operazioni con i floating point, non posso
 
 Con questo approccio le istruzioni vengono divise in vari step che verranno eseguiti uno ogni ciclo. Il data path risulta essere più complicato, ma molto efficace.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Calcolatori/1.png" title="" alt="" data-align="center">
+![[Primo anno/Calcolatori/1.png]]
 
 ![](/Users/xtc/Desktop/appunti/uni/Primo%20anno/Calcolatori/2.png)
 
@@ -883,9 +883,9 @@ Per capire come viene eseguita un'istruzione bisogna tenere a mente che per ogni
 
 - **Write-Back**: scrive i dati dalla memoria ai registri
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Calcolatori/3.png" title="" alt="" data-align="center">
+![[Primo anno/Calcolatori/3.png]]
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Calcolatori/4.png" title="" alt="" data-align="center">
+![[Primo anno/Calcolatori/4.png]]
 
 ## Exceptions
 
@@ -905,6 +905,6 @@ Per intervenire con il codice ci sono due metodi:
 
 Per gestire le eccezioni bisogna estendere l'architettura, quindi anche l'albero standard degli stati.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Calcolatori/5.png" title="" alt="" data-align="center">
+![[Primo anno/Calcolatori/5.png]]
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Primo%20anno/Calcolatori/6.png" title="" alt="" data-align="center">
+![[Primo anno/Calcolatori/6.png]]

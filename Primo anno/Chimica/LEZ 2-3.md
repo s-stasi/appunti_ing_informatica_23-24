@@ -499,7 +499,7 @@ Le formule di lewis sono un modo di rappresentare il legame dei singoli atomi in
 
 Quando due elettroni sono accoppiati vengono rappresentati da una linea.
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Chimica/lewis_1.jpg" title="" alt="" data-align="center">
+![[Chimica/lewis_1.jpg]]
 
 Se un atomo ha ad esempio 3 elettroni di valenza, la posizione di puntini e delle linee è arbitraria.
 
@@ -516,13 +516,13 @@ Se ci sono meno di otto elettroni sull'atomo centrale si possono formare legami 
 
 La tendenza di un atomo in una molecola ad avere otto elettroni nel proprio guscio di valenza è detta regola dell'ottetto.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/lewis_2.png" alt="" data-align="inline" width="355"><img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/lewis_3.png" alt="" width="292">
+![[Chimica/lewis_2.png]]![[Chimica/lewis_3.png]]
 
 ### Eccezioni alle regole di lewis
 
 Si può avere espansione dell’ottetto solo con elementi appartenenti al 3 periodo o a quelli successivi Le molecole in cui si osserva questo fenomeno vengono definite ipervalenti.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/lewis_4.png" alt="" width="127" data-align="inline">
+![[Chimica/lewis_4.png]]
 
 ### Risonanza
 
@@ -538,7 +538,7 @@ Si può avere espansione dell’ottetto solo con elementi appartenenti al 3 peri
 
 6) Disporre i rimanenti elettroni come coppie solitarie attorno ai vari atomi in modo da soddisfare la regola dell'ottetto.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/lewis%20berilio%20cloro.png" alt="" width="455" data-align="center">
+![[Chimica/lewis berilio cloro.png]]
 
 Quando abbiamo più formule di lewis equivalenti, per decidere quale è la più probabile bisogna introdurre due aspetti:
 
@@ -568,7 +568,7 @@ Secondo questo modello il legame si forma perché due atomi si avvicinano in un 
 
 Questa fusione può avvenire con più legami fino a che non si riempiono tutti gli orbitali seguendo la regola: prima si riempiono tutti gli orbitali con lo stesso spin, poi si torna indietro e si mette l'altro elettrone con spin opposto. Quindi $N_2$ avrà 3 legami di valenza perché ha 3 orbitali $2p$ riempiti con un solo elettrone.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/triplo_legame_molecola_azoto.jpg" alt="" data-align="center" width="346">
+![[Chimica/triplo_legame_molecola_azoto.jpg]]
 
 Se i due orbitali p si sovrappongono lungo il loro asse principale, si forma un **legame σ**; Se i due orbitali p si sovrappongono lateralmente, con i loro assi disposti paralleli, formano un **legame pi greco** (**π**).
 
@@ -584,7 +584,7 @@ E' un modo per unire le formule di Lewis e il legame di valenza per ricavare la 
 
 Per prevedere la forma di una molecola con questa teoria bisogna guardare quante coppie elettroniche ci sono. Il numero di coppie, escluse quelle impegnate in legami $\pi$, è anche detto **numero sterico**. Questo numero dice come si metteranno le coppie nello spazio.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/VSEPR_geometries.png" alt="" width="432" data-align="center">
+![[Chimica/VSEPR_geometries.png]]
 
 Le coppie possono fare parte di un legame $\sigma$ oppure essere di non legame. Diverse configurazioni di coppia danno una molecola che appare diversa. C'è una comoda corrispondenza tra il numero di coppie che contano e l'ibridizzazione che l'atomo ha dovuto assumere per ottenere quella forma centrale.
 
@@ -710,13 +710,13 @@ $$
 
 Le reazioni hanno un verso preferito, anche detto spontaneo, ad esempio se parto da una situazione in cui un gas è contenuto in un contenitore e viene collegato ad un altro contenitore vuoto, il gas si sposta anche nell'altro contenitore. Non vedremo mai il contrario.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/trasf.jpg" alt="" width="483" data-align="center">
+![[Chimica/trasf.jpg]]
 
 Considerando invece la fusione del ghiaccio si ha che la trasformazione avviene con un cambiamento di energia del sistema, quindi ci deve essere qualcos'altro che influenza il processo.
 
 Attraverso un processo reversibile noi facciamo avvenire una variazione infinitesima del sistema, generando la massima quantità possibile di lavoro.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Chimica/reversibile.jpg" alt="" width="381" data-align="center">
+![[Chimica/reversibile.jpg]]
 
 Il lavoro è l'area sotto la curva, quindi si può anche dire che sia l'integrale. Come si vede dai grafici, una trasformazione reversibile (sinistra) ha un'area maggiore rispetto ad una irreversibile.
 

@@ -54,7 +54,7 @@ $$
 
 Se dom$f = X$ diremo che $f$ è definita su $X$ e scriveremo più semplicemente $f:X\to Y$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/1.png" alt="" data-align="center" width="266">
+![[Secondo Anno/Analisi II/1.png]]
 
 L'elemento $y\in Y$ associato ad un elemento del dominio si dice l'**immagine di** $x$ attraverso $f$ e si indica con $y = f(x)$
 
@@ -76,11 +76,11 @@ $$
 a:n\mapsto a_n
 $$
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/2.png" title="" alt="" width="163"> $f:\R \mapsto\R, f(x)=ax+b$ 
+![[Secondo Anno/Analisi II/2.png]] $f:\R \mapsto\R, f(x)=ax+b$ 
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/3.png" title="" alt="" width="164"> $f:\R\mapsto\R, f(x)=x^2$
+![[Secondo Anno/Analisi II/3.png]] $f:\R\mapsto\R, f(x)=x^2$
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/4.png" title="" alt="" width="165"> $f:\R-(\setminus)\{0\} \subset\R \to \R, f(x)=\frac{1}{x}$
+![[Secondo Anno/Analisi II/4.png]] $f:\R-(\setminus)\{0\} \subset\R \to \R, f(x)=\frac{1}{x}$
 
 Una funzione reale di variabile reale può essere **definita a tratti**, ossia attraverso espressioni diverse su intervalli divisi. Funzione $f:[0,3]\to \R$ definita come:
 
@@ -92,13 +92,13 @@ x-1 &\text{se } 2<x\le3
 \end{cases}
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/5.png" alt="" data-align="inline" width="167">
+![[Secondo Anno/Analisi II/5.png]]
 
 #### Funzioni a tratti notevoli
 
 - **Valore assoluto**
   
-  <img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/6.png" title="" alt="" width="183"> $f:\R \to\R, f(x)=|x|=
+  ![[Secondo Anno/Analisi II/6.png]] $f:\R \to\R, f(x)=|x|=
   \begin{cases}
   x &\text{se } x \ge0\\
   -x &\text{se } x<0
@@ -106,7 +106,7 @@ $$
 
 - **Segno**
   
-  <img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/7.png" title="" alt="" width="185"> $f:\R \to\Z, f(x)=\text{sign}(x)=
+  ![[Secondo Anno/Analisi II/7.png]] $f:\R \to\Z, f(x)=\text{sign}(x)=
   \begin{cases}
   +1 &\text{se } x > 0\\
   0 &\text{se } x = 0\\
@@ -115,11 +115,11 @@ $$
 
 - **Parte intera**
   
-  <img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/8.png" title="" alt="" width="187"> $f:\R\to\Z, f(x)=[x]=\text{grande numero relativo} \le x$
+  ![[Secondo Anno/Analisi II/8.png]] $f:\R\to\Z, f(x)=[x]=\text{grande numero relativo} \le x$
 
 - **Mantissa**
   
-  <img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Analisi%20II/9.png" title="" alt="" width="189">$f:\R\to\R, f(x)=M(x)=x-[x]$
+  ![[Secondo Anno/Analisi II/9.png]]$f:\R\to\R, f(x)=M(x)=x-[x]$
   
   
 

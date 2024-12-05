@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e46c3531dea3340b",
+        "id": "18243349b5fd75a9",
         "type": "tabs",
         "children": [
           {
-            "id": "d76749ab33fe9a64",
+            "id": "9cdb69ea4892a598",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "Primo anno/Fisica/Fisica.md",
-                "staged": false
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (Fisica)"
+              "icon": "lucide-file",
+              "title": "Fisica"
             }
           }
         ]
@@ -181,27 +182,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d76749ab33fe9a64",
+  "active": "9cdb69ea4892a598",
   "lastOpenFiles": [
-    "Primo anno/Fisica/30.png",
+    "Primo anno/Fisica/Esercitazione 4.pdf",
+    "Primo anno/Fisica/Images/10.png",
+    "Primo anno/Fisica/Images/2.png",
     "Primo anno/Fisica/Fisica.md",
+    "Primo anno/Fisica/Images",
+    "Untitled",
+    "image_paths.py",
+    "Primo anno/Fisica/Images/30.png",
     "30 1.png",
     "30.png",
-    "Primo anno/Fisica/29.png",
-    "Primo anno/Fisica/28.png",
+    "Primo anno/Fisica/Images/29.png",
+    "Primo anno/Fisica/Images/28.png",
     "Secondo Anno/Statistica/9.png",
     "Secondo Anno/Statistica/8.png",
     "Secondo Anno/Statistica/7.png",
-    "Secondo Anno/Statistica/6.png",
-    "Secondo Anno/Statistica/5.png",
-    "Secondo Anno/Statistica/4.png",
     "Secondo Anno/Elettrotecnica/Elettrotecnica.md",
     "Secondo Anno/Elettrotecnica/Elettrotecnica.pdf",
     "Secondo Anno/Fondamenti di automatica/Fondamenti di automatica.md",
     "Secondo Anno/Fondamenti di automatica/Esercitazione1.md",
     "Primo anno/Fisica/Fisica.pdf",
     "Untitled.canvas",
-    "image_paths.py",
     "Primo anno/Fisica/Cinematica.pdf",
     "Primo anno/Fisica/Fisica_images",
     "Primo anno/Fisica/Esercitazione 1.pdf",

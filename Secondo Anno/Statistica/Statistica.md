@@ -30,7 +30,7 @@ La determinazione del campione in uno studio di qualsivoglia genere dipende dal 
 
 Quando il disegno sperimentale non può essere definito si parla di **studio osservazionale**.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/1.png" alt="" data-align="center" width="321">
+![[Secondo Anno/Statistica/1.png]]
 
 ### Statistica descrittiva vs. inferenza
 
@@ -72,7 +72,7 @@ La **statistica descrittiva** si occupa di:
 
 - Presentarli alla persona preposta a riceverli mediante l'utilizzo di tabelle e grafici
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/2.png" alt="" data-align="center" width="455">
+![[Secondo Anno/Statistica/2.png]]
 
 Questi indici rappresentano un intero set di dati mediante l'utilizzo di un solo valore significativo.
 
@@ -116,11 +116,11 @@ $$
 \text{Campo di variazione}=X_{\text{massimo}} - X_{\text{minimo}}
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/3.png" alt="" data-align="center" width="441">
+![[Secondo Anno/Statistica/3.png]]
 
 Il problema del campo di variazione è che ignora il modo in cui i dati sono distribuiti perché considera solo il massimo e il minimo. Inoltre è sensibile agli outliners.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/4.png" alt="" data-align="center" width="441">
+![[Secondo Anno/Statistica/4.png]]
 
 #### Varianza campionaria
 
@@ -138,7 +138,7 @@ $$
 S=\sqrt{\frac{\sum_{i=1}^n (X_i+\bar{X})^2}{n-1} }
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/5.png" alt="" data-align="center" width="433">
+![[Secondo Anno/Statistica/5.png]]
 
 #### Rappresentazione grafica dei dati
 
@@ -184,7 +184,7 @@ Si usa per accoppiare due set di dati diversi su un unico grafico, come ad esemp
 
 I **Quartili** dividono la sequenza ordinata dei dati in 4 segmenti contenenti lo stesso numero di valori
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/8.png" alt="" data-align="center" width="452">
+![[Secondo Anno/Statistica/8.png]]
 
 - Il primo quartile, $Q1$, è il valore per il quale 25% delle osservazioni sono minori e 75% sono maggiori di esso
 
@@ -192,7 +192,7 @@ I **Quartili** dividono la sequenza ordinata dei dati in 4 segmenti contenenti l
 
 - Solo 25% delle osservazioni sono maggiori del terzo quartile $Q3$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/9.png" alt="" data-align="center" width="502">
+![[Secondo Anno/Statistica/9.png]]
 
 $Q1 = 0.25(9+1)=2.5$ posizione. In questo caso il primo quartile si trova tra due valori, quindi facciamo la media: $Q1=12.5$.
 
@@ -204,7 +204,7 @@ $$
 IQR=Q3-Q1
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/10.png" alt="" data-align="center" width="422">
+![[Secondo Anno/Statistica/10.png]]
 
 ## Enumerazione dei punti campionari e probabilità
 
@@ -240,23 +240,23 @@ Per effettuare uno studio sperimentale bisogna prendere dei campioni. I dati che
 
 Se $A$ e $B$ sono due eventi in uno spazio campionario $S$, allora l’intersezione,$A\cap B$, è l’insieme di tutti gli eventi elementari in $S$ che appartengono sia ad $A$ che a $B$
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-09-23%20alle%2010.01.00.png" alt="" width="349"> Diagramma di Venn
+![[/Users/xtc/Desktop/Schermata 2024-09-23 alle 10.01.00.png]] Diagramma di Venn
 
 $A$ e $B$ sono eventi mutuamente esclusivi se non hanno in comune alcun evento elementare
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-09-23%20alle%2010.02.00.png" alt="" width="352" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-09-23 alle 10.02.00.png]]
 
 ### Unione di Eventi
 
 Se $A$ e $B$ sono due eventi in uno spazio campionario $S$, allora l’unione, $A\cup B$, è l’insieme di tutti gli eventi elementari di $S$ che appartengono ad $A$ oppure a $B$
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-09-23%20alle%2010.03.26.png" alt="" width="357" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-09-23 alle 10.03.26.png]]
 
 Gli eventi $E1, E2, … Ek$ sono `collettivamente esaustivi` se e solo se $E1 \cup E2 \cup \dots \cup Ek = S$
 
 L’ evento complementare di un evento $A$ è l’insieme di tutti gli eventi elementari nello spazio campionario che non appartengono ad $A$. L’evento complementare (contrario) è indicato da $\bar{A}$
 
-<img title="" src="file:///Users/xtc/Desktop/Schermata%202024-09-23%20alle%2010.06.46.png" alt="" width="363" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-09-23 alle 10.06.46.png]]
 
 ### Esempio
 
@@ -266,7 +266,7 @@ $$
 S=[1,2,3,4,5,6]
 $$
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-09-23%20alle%2010.10.02.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-09-23 alle 10.10.02.png]]
 
 Sia $A$ l’evento “Il risultato è un numero pari”
 
@@ -331,11 +331,11 @@ r
 \end{pmatrix} = \frac{n!}{r!(n-r)!}
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/6.png" alt="" data-align="center" width="516">
+![[Secondo Anno/Statistica/6.png]]
 
 ### Probabilità di eventi
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Statistica/7.png" alt="" width="147" data-align="center">
+![[Secondo Anno/Statistica/7.png]]
 
 La **probabilità** è la possibilità che un evento, che sappiamo essere incerto, si manifesti $0\le P(A)\le1$
 

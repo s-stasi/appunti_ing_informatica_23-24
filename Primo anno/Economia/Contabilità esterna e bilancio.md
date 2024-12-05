@@ -42,7 +42,7 @@ Lo stato patrimoniale descrive la situazione patrimoniale dell'impresa in un dat
     
     Risorse di diversa provenienza destinate a trasformarsi in liquidità entro l'esercizio successivo.
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-07-02%20alle%2020.06.44.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-07-02 alle 20.06.44.png]]
 
 - **Passivo**: riporta i diritti sulle risorse dell'azienda da parte di azionisti e terzi.
   
@@ -62,17 +62,17 @@ Lo stato patrimoniale descrive la situazione patrimoniale dell'impresa in un dat
     
     Risorse da terzi e destinate a restituzione durante il prossimo esercizio
   
-  <img src="file:///Users/xtc/Desktop/Schermata%202024-07-02%20alle%2020.06.49.png" title="" alt="" data-align="center">
+  ![[/Users/xtc/Desktop/Schermata 2024-07-02 alle 20.06.49.png]]
   
   - **Patrimonio netto**
     
     Valore delle risorse fornite dagli azionisti, è un finanziamento permanente
   
-  <img src="file:///Users/xtc/Desktop/Schermata%202024-07-02%20alle%2020.06.58.png" title="" alt="" data-align="center">
+  ![[/Users/xtc/Desktop/Schermata 2024-07-02 alle 20.06.58.png]]
 
 ## Equazione fondamentale del bilancio
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-07-02%20alle%2022.46.17.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-07-02 alle 22.46.17.png]]
 
 $$
 \text{Attività} = \text{Passività} + \text{Patrimonio netto}
@@ -106,7 +106,7 @@ $$
 
 - Ratei e risconti attivi: voci di aggiustamento di entrate e uscite di cassa rispetto ai costi e ai ricavi si competenza dell'esercizio. Il **risconto attivo** è la somma di denaro uscita anticipatamente, mentre il **rateo attivo** è l'entrata di cassa anticipata rispetto all'esercizio corrente.
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-07-02%20alle%2023.07.29.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-07-02 alle 23.07.29.png]]
 
 ### Passivo
 
@@ -122,7 +122,7 @@ $$
 
 - Trattamento di fine rapporto (TFR): somma dei diritti vantati dai dipendenti nei confronti dell'azienda, è una passività spontanea
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-07-02%20alle%2023.18.57.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-07-02 alle 23.18.57.png]]
 
 - Debiti: nel bilancio occorre indicare la natura e la durata
   
@@ -136,7 +136,7 @@ $$
 
 - Ratei e risconti passivi: il **risconto passivo** è un'entrata di cassa anticipata, mentre il **rateo passivo** e un'entrata di cassa posticipata
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-07-02%20alle%2023.21.23.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-07-02 alle 23.21.23.png]]
 
 Per la loro natura di voci di aggiustamento ratei e risconti vengono cancellati dall'esercizio successivo
 
@@ -160,7 +160,7 @@ I **conti d'ordine** sono delle annotazioni di memoria che costituiscono il corr
 
 - leasing di terzi presso la società: contratto per cui un soggetto cede in locazione ad un altro soggetto, per un periodo di tempo prefissato, uno o più beni mobili o immobili, dietro pagamento di un canone periodico. C'è la possibilità di riscattare il bene a titolo oneroso alla fine del contratto. Rispetto al mutuo prevede procedure più snelle e consente vantaggi fiscali.
   
-  <img src="file:///Users/xtc/Desktop/Schermata%202024-07-03%20alle%2011.26.29.png" title="" alt="" data-align="left">
+  ![[/Users/xtc/Desktop/Schermata 2024-07-03 alle 11.26.29.png]]
   
   - Il **leasing operativo** viene rilevato come debito verso terzi e costi per godimento di beni di terzi come qualsiasi altro noleggio o fitto passivo
   
@@ -174,7 +174,7 @@ Il conto economico esprime cosa l'azienda genera da quello di cui dispone. E' co
 
 Dal conto economico si ricava l'utile di esercizio come la differenza tra ricavi e costi:
 
-<img src="file:///Users/xtc/Desktop/Schermata%202024-07-03%20alle%2011.33.59.png" title="" alt="" data-align="center">
+![[/Users/xtc/Desktop/Schermata 2024-07-03 alle 11.33.59.png]]
 
 La IV direttiva impone uno schema di classificazione delle voci che rispecchia una suddivisione dell'impresa per gestioni:
 
@@ -196,7 +196,7 @@ La IV direttiva impone uno schema di classificazione delle voci che rispecchia u
   
   - altri ricavi
   
-  <img src="file:///Users/xtc/Desktop/Schermata%202024-07-03%20alle%2019.16.42.png" title="" alt="" data-align="center">
+  ![[/Users/xtc/Desktop/Schermata 2024-07-03 alle 19.16.42.png]]
 
 - Costi della produzione: costituiscono tutti i costi relativi sia all'attività di trasformazione sia all'attività di supporto
   
@@ -208,7 +208,7 @@ La IV direttiva impone uno schema di classificazione delle voci che rispecchia u
   
   - ammortamenti e svalutazioni
     
-    <img src="file:///Users/xtc/Desktop/Schermata%202024-07-03%20alle%2019.18.49.png" title="" alt="" data-align="center">
+    ![[/Users/xtc/Desktop/Schermata 2024-07-03 alle 19.18.49.png]]
   
   - variazioni di rimanenze di materie prime
   

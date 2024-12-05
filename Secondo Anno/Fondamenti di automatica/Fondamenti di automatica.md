@@ -16,7 +16,7 @@ I sistemi dinamici sono descritti da modelli matematici che possono essere:
 
 Un sistema si dice **dinamico** quando la conoscenza dei valori in ingresso a un tempo $t$ non è sufficiente a determinare univocamente il valore delle variabili in uscita nel medesimo tempo $t$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/1.png" alt="" data-align="center">
+![[Secondo Anno/Fondamenti di automatica/1.png]]
 
 Per determinare $w_{out}$ bisogna conoscere anche il livello iniziale del serbatoio
 
@@ -31,15 +31,15 @@ $$
 
 Esempio che serve a capire l'importanza delle condizioni iniziali
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/2.png" alt="Schermata 2024-09-27 alle 18.37.49.png" width="465" data-align="center">
+![[Secondo Anno/Fondamenti di automatica/2.png]]
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/3.png" alt="Schermata 2024-09-27 alle 18.39.08.png" width="457" data-align="center">
+![[Secondo Anno/Fondamenti di automatica/3.png]]
 
 Nei due esperimenti la velocità di ingresso dell'acqua è la medesima, a cambiare è il livello iniziale. In quello in cui il livello è alto il serbatoio si svuota, mentre dove il livello è basso si riempie. Questi due esempi sono `dinamici`, perché non possiamo dedurre lo stato finale anche conoscendo l'ingresso.
 
 **Esempio 2**
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/4.png" alt="Schermata 2024-09-27 alle 18.43.02.png" data-align="center" width="475">
+![[Secondo Anno/Fondamenti di automatica/4.png]]
 
 Basta conoscere $i(t)$ per determinare univocamente $v(t)$. In questo caso il sistema è `NON dinamico`, perché conoscendo solo l'ingresso posso determinare l'uscita.
 
@@ -124,13 +124,13 @@ Sono sistemi in cui si ha un unico input e un unico output.
 
 **Esempio 1**
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/7.png" alt="" data-align="center" width="446">
+![[Secondo Anno/Fondamenti di automatica/7.png]]
 
 $f(\cdot)$ e $g(\cdot)$ sono funzioni scalari lineari di $u$ ed $x$. Nell’esempio la $f(x)$ è una funzione non vettoriale siccome ho solo una equazione di stato (quella in blu) e non due.
 
 **Esempio 2**
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/8.png" alt="" data-align="center" width="456">
+![[Secondo Anno/Fondamenti di automatica/8.png]]
 
 $f(\cdot)=
 \begin{bmatrix}
@@ -165,7 +165,7 @@ Noi studieremo solo sistemi **tempo-invarianti** o **stazionari**
 
 **Esempio**
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/9.png" alt="" data-align="center" width="524">
+![[Secondo Anno/Fondamenti di automatica/9.png]]
 
 ### Come si scelgono le variabili di stato
 
@@ -248,7 +248,7 @@ $$
 
 ### Sistemi dinamici lineari Tempo-Invarianti (LTI)
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/11.png" alt="" data-align="center" width="439">
+![[Secondo Anno/Fondamenti di automatica/11.png]]
 
 I sistemi LTI hanno una struttura semplice e sono disponibili molti risultati teorici per il loro studio (e per il progetto di controllori).
 
@@ -445,7 +445,7 @@ $$
 
 Assegnando come condizione iniziale per lo stato $x(0)=x_0$ e un andamento per l'ingresso $u(t),t\ge t_0$ è possibile integrare l'equazione differenziale e calcolare un'espressione analitica del movimento dello stato $x(t)$. Sostituendo nell'equazione di uscita si può ottenere il movimento dell'uscita $y(t)$.
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/12.png" alt="Schermata 2024-09-25 alle 14.45.43.png" data-align="center" width="443">
+![[Secondo Anno/Fondamenti di automatica/12.png]]
 
 Ad esempio scrivendo una legge di conservazione del volume si ottiene l'equazione differenziale
 
@@ -570,7 +570,7 @@ $$
 
 ## Linearizzazione di sistemi non lineari
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/13.png" alt="" data-align="center" width="256">
+![[Secondo Anno/Fondamenti di automatica/13.png]]
 
 Supponiamo che $f(x)$ sia una funzione non lineare di $x$, vicino a $\bar{x}$ la funzione può essere approssimata usando una funzione lineare costruita con la sua tangente
 
@@ -600,7 +600,7 @@ $$
 x(t) =\bar{x}, t\ge0
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/14.png" alt="" data-align="center" width="435">
+![[Secondo Anno/Fondamenti di automatica/14.png]]
 
 In caso di perturbazioni nelle condizioni iniziali e nell'input, se le variazioni sono piccole, si può descrivere il movimento dello stato come perturbazione del movimento di equilibrio.
 
@@ -613,7 +613,7 @@ $$
 x(t) =\bar{x} + \delta_x(t), t\ge0
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/15.png" alt="" data-align="center" width="450">
+![[Secondo Anno/Fondamenti di automatica/15.png]]
 
 Dove $x(t) = \bar{x}+\delta_x(t)$ è il movimento dello stato con ingresso $u(t)=\bar{u}+\delta_u(t)$ e quindi deve soddisfare l'equazione di stato $\dot{x}(t)=f(x(t),u(t))$.
 
@@ -717,7 +717,7 @@ S^\delta:\begin{cases}
 \end{cases}
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo Anno/Fondamenti di automatica/16.png" alt="" data-align="center" width="460">
+![[Secondo Anno/Fondamenti di automatica/16.png]]
 
 $\tilde{S}$ è l'approssimazione di $S$ nell'intorno del punto di equilibrio $(\bar{x},bar{u})$.
 
@@ -727,7 +727,7 @@ $\tilde{S}$ viene spesso indicato anche con il nome di `approssimazione (modello
 
 ## Stabilità dei sistemi dinamici
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/17.png" alt="" data-align="center" width="466">
+![[Secondo Anno/Fondamenti di automatica/17.png]]
 
 Studiando i due sistemi illustrati sopra, quello con la palla è definito stabile perché anche cambiando lo stato della palla, essa ritornerà al suo stato iniziale sul fondo della superficie curva, che è anche il suo equilibrio. Il sistema sulla destra è instabile perché anche una piccola perturbazione potrebbe cambiare permanente lo stato del sistema, che sarebbe impossibilitato a tornare in uno stato prevedibile o costante.
 
@@ -772,15 +772,15 @@ $$
 
 - `Stabilità`: la perturbazione del movimento limitata
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/18.png" alt="" data-align="center" width="403">
+![[Secondo Anno/Fondamenti di automatica/18.png]]
 
 - `Instabilità`: la perturbazione del movimento divergente
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/19.png" alt="" data-align="center" width="407">
+![[Secondo Anno/Fondamenti di automatica/19.png]]
 
 - `Asintotica stabilità`: la perturbazione del movimento è limitata e tende asintoticamente a 0
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/20.png" alt="" data-align="center" width="411">
+![[Secondo Anno/Fondamenti di automatica/20.png]]
 
 ### Stabilità dell'equilibrio nei sistemi LTI
 
@@ -825,7 +825,7 @@ $$
 
 dove $e^{At}\delta_{\bar{x}}$ è la perturbazione del movimento
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/21.png" alt="" data-align="center" width="442">
+![[Secondo Anno/Fondamenti di automatica/21.png]]
 
 C'è una relazione tra la perturbazione della condizione iniziale e la perturbazione del movimento:
 
@@ -845,13 +845,13 @@ $$
 \delta_x(t)=e^{At}\delta_{\bar{x}}
 $$
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/22.png" alt="" data-align="center" width="459">
+![[Secondo Anno/Fondamenti di automatica/22.png]]
 
 `In un sistema LTI asintoticamente stabile il movimento libero converge sempre asintoticamente a 0`
 
 #### Classificazione per stabilità dei sistemi LTI
 
-<img src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/23.png" title="" alt="" data-align="center">
+![[Secondo Anno/Fondamenti di automatica/23.png]]
 
 ### Proprietà dei sistemi LTI asintoticamente stabili
 
@@ -873,7 +873,7 @@ Infatti, modificando la condizione iniziale, modifico solo il movimento libero c
 
 **Esempio**
 
-<img title="" src="file:///Users/xtc/Desktop/appunti/uni/Secondo%20Anno/Fondamenti%20di%20automatica/24.png" alt="" data-align="center" width="493">
+![[Secondo Anno/Fondamenti di automatica/24.png]]
 
 Per definizione di equilibrio dello stato, applicando l'ingresso costante $\bar{u}=1$ con condizione iniziale di stato $x(0)=1,t\ge0$.
 
