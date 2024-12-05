@@ -42,7 +42,7 @@ map_image <- readPNG("montesigno.png")
 
 # Forest Fires
 
-L'obiettivo di questo report è stimare l'area bruciata dagli incendi boschivi nel parco di montesigno in funzione delle condizioni ambientali. I dati presenti nel dataset sono stati raccolti da `r unique_stations` stazioni meteorologiche nell'arco di `r time_period`. \newline
+L'obiettivo di questo report è stimare l'area bruciata dagli incendi boschivi nel parco di montesigno in funzione delle condizioni ambientali. I dati presenti nel dataset sono stati raccolti da `r unique_stations` stazioni meteorologiche nell'arco di `r time_period`. In particolare, i rilevamenti in esame sono stati registrati solamente in presenza di incendi, sono quindi stati scartati i rilevamenti che sono stati effettuati in condizioni normali. \newline
 
 ```{r mappa, echo=FALSE, fig.height=2.5, fig.width=5, fig.align='center'}
 # Disegna i punti sopra la mappa
@@ -62,8 +62,10 @@ ggplot(dataset, aes(x = X, y = Y)) +
         axis.ticks=element_blank(),
         title = element_text(size = 10))
 ```
+
 ## Contenuto del dataset
-Il dataset in esame contiene le seguenti variabili:
+
+Il dataset in questione contiene le seguenti variabili:
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 ### Sezione per spiegare le variabili del dataset
@@ -92,9 +94,20 @@ data <- data.frame(
 )
 
 data %>%
-  kbl(caption = "Tabella variabili") %>%
+  kbl() %>%
+  add_header_above(c(" " = 2)) %>%
   kable_styling(full_width = FALSE, latex_options = "HOLD_position")
 ```
+
+### Classificazione delle variabili
+
+Le variabili sono logicamente suddivise in tre categorie principali:
+
+-   Osservazioni meteorologiche durante incendi
+
+-   Indici di umidità del carburante
+
+-   Indici di comportamento del fuoco
 
 ```{r echo=FALSE, fig.align='center', fig.height=4, fig.width=4}
 # https://cwfis.cfs.nrcan.gc.ca/background/summary/fwi

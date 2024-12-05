@@ -93,20 +93,23 @@
 L'obiettivo di questo report è stimare l'area bruciata dagli incendi
 boschivi nel parco di montesigno in funzione delle condizioni
 ambientali. I dati presenti nel dataset sono stati raccolti da 36
-stazioni meteorologiche nell'arco di un anno. \newline
+stazioni meteorologiche nell'arco di un anno. In particolare, i
+rilevamenti in esame sono stati registrati solamente in presenza di
+incendi, sono quindi stati scartati i rilevamenti che sono stati
+effettuati in condizioni normali. \newline
 
 \begin{center}\includegraphics{ForestFires_files/figure-latex/mappa-1} \end{center}
 
 \subsection{Contenuto del dataset}\label{contenuto-del-dataset}
 
-Il dataset in esame contiene le seguenti variabili:
+Il dataset in questione contiene le seguenti variabili:
 
 \begin{table}[H]
 \centering
-\caption{\label{tab:unnamed-chunk-1}Tabella variabili}
-\centering
 \begin{tabular}[t]{l|l}
 \hline
+\multicolumn{2}{c}{ } \\
+
 Variabile & Descrizione\\
 \hline
 X & Coordinata X della stazione\\
@@ -137,6 +140,20 @@ area & Area totale bruciata (in ha)\\
 \hline
 \end{tabular}
 \end{table}
+
+\subsubsection{Classificazione delle
+variabili}\label{classificazione-delle-variabili}
+
+Le variabili sono logicamente suddivise in tre categorie principali:
+
+\begin{itemize}
+\item
+  Osservazioni meteorologiche durante incendi
+\item
+  Indici di umidità del carburante
+\item
+  Indici di comportamento del fuoco
+\end{itemize}
 
 \begin{center}\includegraphics{ForestFires_files/figure-latex/unnamed-chunk-2-1} \end{center}
 
